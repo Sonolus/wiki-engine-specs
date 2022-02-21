@@ -118,6 +118,7 @@
             "/functions/is-debug": "IsDebug",
             "/functions/judge": "Judge",
             "/functions/judge-simple": "JudgeSimple",
+            "/functions/jump-loop": "JumpLoop",
             "/functions/lerp": "Lerp",
             "/functions/lerp-clamped": "LerpClamped",
             "/functions/less": "Less",
