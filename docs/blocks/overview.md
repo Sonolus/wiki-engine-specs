@@ -35,6 +35,7 @@ Blocks can be accessed using `Get` and `Set` functions.
 | Entity Input               |      ✔       |      ✔       |       ✔       |      ✔       |         ✔          |    ✔    |        ✔         |      ✔      |
 | Entity Shared Memory       |      ✔       |      ✔       |       ✔       |      ✔       |         ✔          |    ✔    |        ✔         |      ✔      |
 | Archetype Life             |      ✔       |      ✔       |       ✔       |      ✔       |         ✔          |    ✔    |        ✔         |      ✔      |
+| Engine Rom                 |      ✔       |      ✔       |       ✔       |      ✔       |         ✔          |    ✔    |        ✔         |      ✔      |
 | Temporary Memory           |              |              |               |              |                    |    ✔    |                  |             |
 | Temporary Data             |              |              |               |              |                    |    ✔    |                  |             |
 
@@ -61,5 +62,6 @@ Blocks can be accessed using `Get` and `Set` functions.
 | Entity Input               |      ✔       |      ✔       |       ✔       |      ✔       |         ✔          |    ✔    |        ✔         |      ✔      |
 | Entity Shared Memory       |      ✔       |      ✔       |      ❌       |      ❌      |         ✔          |    ✔    |        ❌        |     ❌      |
 | Archetype Life             |      ✔       |      ✔       |      ❌       |      ❌      |         ❌         |   ❌    |        ❌        |     ❌      |
+| Engine Rom                 |      ❌      |      ❌      |      ❌       |      ❌      |         ❌         |   ❌    |        ❌        |     ❌      |
 | Temporary Memory           |              |              |               |              |                    |    ✔    |                  |             |
 | Temporary Data             |              |              |               |              |                    |   ❌    |                  |             |

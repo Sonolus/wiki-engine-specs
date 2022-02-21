@@ -17,7 +17,8 @@
             "/resources/engine-data-bucket": "Engine Data Bucket",
             "/resources/engine-data-archetype": "Engine Data Archetype",
             "/resources/engine-data-script": "Engine Data Script",
-            "/resources/engine-data-node": "Engine Data Node"
+            "/resources/engine-data-node": "Engine Data Node",
+            "/resources/engine-rom": "Engine Rom"
         }
     },
     {
@@ -69,6 +70,7 @@
             "/blocks/entity-input": "Entity Input",
             "/blocks/entity-shared-memory": "Entity Shared Memory",
             "/blocks/archetype-life": "Archetype Life",
+            "/blocks/engine-rom": "Engine Rom",
             "/blocks/temporary-memory": "Temporary Memory",
             "/blocks/temporary-data": "Temporary Data"
         }
