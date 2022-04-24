@@ -36,7 +36,7 @@ Blocks can be accessed using `Get` and `Set` functions.
 | Entity Shared Memory       |      ✔       |      ✔       |       ✔       |      ✔       |         ✔          |    ✔    |        ✔         |      ✔      |
 | Archetype Life             |      ✔       |      ✔       |       ✔       |      ✔       |         ✔          |    ✔    |        ✔         |      ✔      |
 | Engine Rom                 |      ✔       |      ✔       |       ✔       |      ✔       |         ✔          |    ✔    |        ✔         |      ✔      |
-| Temporary Memory           |              |              |               |              |                    |    ✔    |                  |             |
+| Temporary Memory           |      ✔       |      ✔       |       ✔       |      ✔       |         ✔          |    ✔    |        ✔         |      ✔      |
 | Temporary Data             |              |              |               |              |                    |    ✔    |                  |             |
 
 ## Write Access Table
@@ -63,5 +63,5 @@ Blocks can be accessed using `Get` and `Set` functions.
 | Entity Shared Memory       |      ✔       |      ✔       |      ❌       |      ❌      |         ✔          |    ✔    |        ❌        |     ❌      |
 | Archetype Life             |      ✔       |      ✔       |      ❌       |      ❌      |         ❌         |   ❌    |        ❌        |     ❌      |
 | Engine Rom                 |      ❌      |      ❌      |      ❌       |      ❌      |         ❌         |   ❌    |        ❌        |     ❌      |
-| Temporary Memory           |              |              |               |              |                    |    ✔    |                  |             |
+| Temporary Memory           |      ✔       |      ✔       |       ✔       |      ✔       |         ✔          |    ✔    |        ✔         |      ✔      |
 | Temporary Data             |              |              |               |              |                    |   ❌    |                  |             |

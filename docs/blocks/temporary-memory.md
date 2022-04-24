@@ -12,23 +12,23 @@ const TemporaryMemoryId = 100
 
 ### `touch` Callback
 
-| Index | Initial Value | Description    |
-| ----- | ------------- | -------------- |
-| 0-15  | 0             | Generic memory |
+| Index  | Initial Value | Description    |
+| ------ | ------------- | -------------- |
+| 0-4095 | ?             | Generic memory |
 
 ## Access
 
 | Callback           | Read | Write |
 | ------------------ | :--: | :---: |
-| `preprocess`       |      |       |
-| `spawnOrder`       |      |       |
-| `shouldSpawn`      |      |       |
-| `initialize`       |      |       |
-| `updateSequential` |      |       |
+| `preprocess`       |  ✔   |   ✔   |
+| `spawnOrder`       |  ✔   |   ✔   |
+| `shouldSpawn`      |  ✔   |   ✔   |
+| `initialize`       |  ✔   |   ✔   |
+| `updateSequential` |  ✔   |   ✔   |
 | `touch`            |  ✔   |   ✔   |
-| `updateParallel`   |      |       |
-| `terminate`        |      |       |
+| `updateParallel`   |  ✔   |   ✔   |
+| `terminate`        |  ✔   |   ✔   |
 
 ## Remarks
 
-During `touch` callback, for every new touch, values are reset to initial values.
+Initial values of Temporary Memory block are unpredictable. It is important to take this into account when using Temporary Memory block and do not rely on its initial values.

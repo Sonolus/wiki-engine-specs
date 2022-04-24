@@ -10,9 +10,9 @@ const LevelMemoryId = 0
 
 ## Values
 
-| Index | Initial Value | Description    |
-| ----- | ------------- | -------------- |
-| 0-255 | 0             | Generic memory |
+| Index  | Initial Value | Description    |
+| ------ | ------------- | -------------- |
+| 0-4095 | 0             | Generic memory |
 
 ## Access
 
