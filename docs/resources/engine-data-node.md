@@ -19,7 +19,6 @@ type EngineDataFunctionNode = {
 type EngineDataFunctionName =
     | 'Constant'
     | 'Execute'
-    | 'Execute0'
     | 'If'
     | 'Switch'
     | 'SwitchWithDefault'

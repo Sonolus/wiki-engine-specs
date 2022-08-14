@@ -21,7 +21,7 @@ Values are initially set to all 0, then `archetype.data` will be injected, and f
 | Callback           | Read | Write |
 | ------------------ | :--: | :---: |
 | `preprocess`       |  ✔   |   ✔   |
-| `spawnOrder`       |  ✔   |   ✔   |
+| `spawnOrder`       |  ✔   |  ❌   |
 | `shouldSpawn`      |  ✔   |  ❌   |
 | `initialize`       |  ✔   |  ❌   |
 | `updateSequential` |  ✔   |  ❌   |

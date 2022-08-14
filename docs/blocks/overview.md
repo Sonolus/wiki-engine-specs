@@ -43,25 +43,25 @@ Blocks can be accessed using `Get` and `Set` functions.
 
 | Block                      | `preprocess` | `spawnOrder` | `shouldSpawn` | `initialize` | `updateSequential` | `touch` | `updateParallel` | `terminate` |
 | -------------------------- | :----------: | :----------: | :-----------: | :----------: | :----------------: | :-----: | :--------------: | :---------: |
-| Level Memory               |      ✔       |      ✔       |      ❌       |      ❌      |         ✔          |    ✔    |        ❌        |     ❌      |
-| Level Data                 |      ✔       |      ✔       |      ❌       |      ❌      |         ❌         |   ❌    |        ❌        |     ❌      |
-| Level Option               |      ✔       |      ✔       |      ❌       |      ❌      |         ❌         |   ❌    |        ❌        |     ❌      |
-| Level Transform            |      ✔       |      ✔       |      ❌       |      ❌      |         ✔          |    ✔    |        ❌        |     ❌      |
-| Level Background           |      ✔       |      ✔       |      ❌       |      ❌      |         ✔          |    ✔    |        ❌        |     ❌      |
-| Level UI                   |      ✔       |      ✔       |      ❌       |      ❌      |         ❌         |   ❌    |        ❌        |     ❌      |
-| Level Bucket               |      ✔       |      ✔       |      ❌       |      ❌      |         ❌         |   ❌    |        ❌        |     ❌      |
-| Level Score                |      ✔       |      ✔       |      ❌       |      ❌      |         ❌         |   ❌    |        ❌        |     ❌      |
-| Level Life                 |      ✔       |      ✔       |      ❌       |      ❌      |         ❌         |   ❌    |        ❌        |     ❌      |
-| Level UI Configuration     |      ✔       |      ✔       |      ❌       |      ❌      |         ❌         |   ❌    |        ❌        |     ❌      |
+| Level Memory               |      ✔       |      ❌      |      ❌       |      ❌      |         ✔          |    ✔    |        ❌        |     ❌      |
+| Level Data                 |      ✔       |      ❌      |      ❌       |      ❌      |         ❌         |   ❌    |        ❌        |     ❌      |
+| Level Option               |      ✔       |      ❌      |      ❌       |      ❌      |         ❌         |   ❌    |        ❌        |     ❌      |
+| Level Transform            |      ✔       |      ❌      |      ❌       |      ❌      |         ✔          |    ✔    |        ❌        |     ❌      |
+| Level Background           |      ✔       |      ❌      |      ❌       |      ❌      |         ✔          |    ✔    |        ❌        |     ❌      |
+| Level UI                   |      ✔       |      ❌      |      ❌       |      ❌      |         ❌         |   ❌    |        ❌        |     ❌      |
+| Level Bucket               |      ✔       |      ❌      |      ❌       |      ❌      |         ❌         |   ❌    |        ❌        |     ❌      |
+| Level Score                |      ✔       |      ❌      |      ❌       |      ❌      |         ❌         |   ❌    |        ❌        |     ❌      |
+| Level Life                 |      ✔       |      ❌      |      ❌       |      ❌      |         ❌         |   ❌    |        ❌        |     ❌      |
+| Level UI Configuration     |      ✔       |      ❌      |      ❌       |      ❌      |         ❌         |   ❌    |        ❌        |     ❌      |
 | Entity Info Array          |      ❌      |      ❌      |      ❌       |      ❌      |         ❌         |   ❌    |        ❌        |     ❌      |
-| Entity Data Array          |      ✔       |      ✔       |      ❌       |      ❌      |         ❌         |   ❌    |        ❌        |     ❌      |
-| Entity Shared Memory Array |      ✔       |      ✔       |      ❌       |      ❌      |         ✔          |    ✔    |        ❌        |     ❌      |
+| Entity Data Array          |      ✔       |      ❌      |      ❌       |      ❌      |         ❌         |   ❌    |        ❌        |     ❌      |
+| Entity Shared Memory Array |      ✔       |      ❌      |      ❌       |      ❌      |         ✔          |    ✔    |        ❌        |     ❌      |
 | Entity Info                |      ❌      |      ❌      |      ❌       |      ❌      |         ❌         |   ❌    |        ❌        |     ❌      |
 | Entity Memory              |      ✔       |      ✔       |       ✔       |      ✔       |         ✔          |    ✔    |        ✔         |      ✔      |
-| Entity Data                |      ✔       |      ✔       |      ❌       |      ❌      |         ❌         |   ❌    |        ❌        |     ❌      |
+| Entity Data                |      ✔       |      ❌      |      ❌       |      ❌      |         ❌         |   ❌    |        ❌        |     ❌      |
 | Entity Input               |      ✔       |      ✔       |       ✔       |      ✔       |         ✔          |    ✔    |        ✔         |      ✔      |
-| Entity Shared Memory       |      ✔       |      ✔       |      ❌       |      ❌      |         ✔          |    ✔    |        ❌        |     ❌      |
-| Archetype Life             |      ✔       |      ✔       |      ❌       |      ❌      |         ❌         |   ❌    |        ❌        |     ❌      |
+| Entity Shared Memory       |      ✔       |      ❌      |      ❌       |      ❌      |         ✔          |    ✔    |        ❌        |     ❌      |
+| Archetype Life             |      ✔       |      ❌      |      ❌       |      ❌      |         ❌         |   ❌    |        ❌        |     ❌      |
 | Engine Rom                 |      ❌      |      ❌      |      ❌       |      ❌      |         ❌         |   ❌    |        ❌        |     ❌      |
 | Temporary Memory           |      ✔       |      ✔       |       ✔       |      ✔       |         ✔          |    ✔    |        ✔         |      ✔      |
 | Temporary Data             |              |              |               |              |                    |   ❌    |                  |             |

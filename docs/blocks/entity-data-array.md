@@ -24,7 +24,7 @@ See Entity Data block.
 | Callback           | Read | Write |
 | ------------------ | :--: | :---: |
 | `preprocess`       |  ✔   |   ✔   |
-| `spawnOrder`       |  ✔   |   ✔   |
+| `spawnOrder`       |  ✔   |  ❌   |
 | `shouldSpawn`      |  ✔   |  ❌   |
 | `initialize`       |  ✔   |  ❌   |
 | `updateSequential` |  ✔   |  ❌   |

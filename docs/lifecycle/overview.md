@@ -12,13 +12,13 @@ Preparation consists of preprocessing system, spawn ordering system, and optimiz
 
 Preprocessing system is responsible for setting up or modifying blocks to be used throughout the gameplay.
 
-### Spawn Ordering System
-
-Spawn ordering system is responsible for calculating the spawn order of each entities and order them into spawn queue.
-
 ### Optimization System
 
 Optimization system is responsible for optimizing nodes to improve code performance.
+
+### Spawn Ordering System
+
+Spawn ordering system is responsible for calculating the spawn order of each entities and order them into spawn queue.
 
 ## Update Cycle
 
