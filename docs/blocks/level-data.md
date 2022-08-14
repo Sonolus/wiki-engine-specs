@@ -26,7 +26,7 @@ const LevelDataId = 1
 | Callback           | Read | Write |
 | ------------------ | :--: | :---: |
 | `preprocess`       |  ✔   |   ✔   |
-| `spawnOrder`       |  ✔   |   ✔   |
+| `spawnOrder`       |  ✔   |  ❌   |
 | `shouldSpawn`      |  ✔   |  ❌   |
 | `initialize`       |  ✔   |  ❌   |
 | `updateSequential` |  ✔   |  ❌   |

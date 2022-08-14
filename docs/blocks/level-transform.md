@@ -19,7 +19,7 @@ const LevelTransformId = 3
 | Callback           | Read | Write |
 | ------------------ | :--: | :---: |
 | `preprocess`       |  ✔   |   ✔   |
-| `spawnOrder`       |  ✔   |   ✔   |
+| `spawnOrder`       |  ✔   |  ❌   |
 | `shouldSpawn`      |  ✔   |  ❌   |
 | `initialize`       |  ✔   |  ❌   |
 | `updateSequential` |  ✔   |   ✔   |
