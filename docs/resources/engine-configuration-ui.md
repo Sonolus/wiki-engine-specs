@@ -42,7 +42,19 @@ type EngineConfigurationAnimationTween = {
     from: number
     to: number
     duration: number
-    ease: string
+    ease:
+        | 'Linear'
+        | `${'In' | 'Out' | 'InOut' | 'OutIn'}${
+              | 'Sine'
+              | 'Quad'
+              | 'Cubic'
+              | 'Quart'
+              | 'Quint'
+              | 'Expo'
+              | 'Circ'
+              | 'Back'
+              | 'Elastic'}`
+        | 'None'
 }
 
 type EngineConfigurationJudgmentErrorStyle =

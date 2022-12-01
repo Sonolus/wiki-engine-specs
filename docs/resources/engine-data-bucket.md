@@ -11,6 +11,7 @@ type EngineDataBucket = {
 
 type EngineDataSprite = {
     id: SkinSprite
+    fallbackId?: SkinSprite
     x: number
     y: number
     w: number
