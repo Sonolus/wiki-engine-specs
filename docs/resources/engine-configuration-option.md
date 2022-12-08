@@ -19,7 +19,7 @@ type EngineConfigurationSliderOption = {
     min: number
     max: number
     step: number
-    display: 'number' | 'percentage'
+    unit?: string
 }
 
 type EngineConfigurationToggleOption = {
@@ -77,6 +77,6 @@ Standardized option values starts with `#` and will be translated into client la
     "min": 0.5,
     "max": 2,
     "step": 0.05,
-    "display": "percentage"
+    "unit": "#PERCENTAGE"
 }
 ```
