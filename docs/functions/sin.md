@@ -1,13 +1,13 @@
 # `Sin`
 
-Trigonometric sin function on expression.
+Trigonometric sin function.
 
 ## Arguments
 
 | Argument | Description |
 | -------- | ----------- |
-| expr     | Expression  |
+| value    | Value       |
 
 ## Return
 
-Sin of expression.
+Sin of `value`.

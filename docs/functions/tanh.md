@@ -1,13 +1,13 @@
 # `Tanh`
 
-Trigonometric tanh function on expression.
+Trigonometric tanh function.
 
 ## Arguments
 
 | Argument | Description |
 | -------- | ----------- |
-| expr     | Expression  |
+| value    | Value       |
 
 ## Return
 
-Tanh of expression.
+Tanh of `value`.

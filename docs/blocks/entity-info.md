@@ -5,7 +5,7 @@ Entity Info block contains state information of the entity.
 ## Identifier
 
 ```ts
-const EntityInfoId = 20
+const EntityInfoId = 4003
 ```
 
 ## Values

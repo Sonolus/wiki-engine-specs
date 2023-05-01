@@ -1,18 +1,18 @@
 # `SwitchIntegerWithDefault`
 
-Conditionally execute an expression.
+Conditionally execute a branch.
 
 ## Arguments
 
-| Argument | Description                           |
-| -------- | ------------------------------------- |
-| cond     | Condition                             |
-| expr_1   | Case 1 expression if cond equals to 1 |
-| expr_2   | Case 2 expression if cond equals to 2 |
-| expr_3   | Case 3 expression if cond equals to 3 |
-| ...      | ...                                   |
-| expr_def | Default expression if no case matches |
+| Argument       | Description         |
+| -------------- | ------------------- |
+| discriminant   | Discriminant        |
+| consequent_0   | Branch 0 consequent |
+| consequent_1   | Branch 1 consequent |
+| consequent_2   | Branch 2 consequent |
+| ...            | ...                 |
+| consequent_def | Default consequent  |
 
 ## Return
 
-Result of the executed expression.
+`consequent_n` of branch where `discriminant` equals to `n`, or `consequent_def` if no branch matches.

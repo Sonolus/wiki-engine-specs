@@ -1,13 +1,13 @@
 # `Arccos`
 
-Trigonometric arccos function on expression.
+Trigonometric arccos function.
 
 ## Arguments
 
 | Argument | Description |
 | -------- | ----------- |
-| expr     | Expression  |
+| value    | Value       |
 
 ## Return
 
-Arccos of expression.
+Arccos of `value`.

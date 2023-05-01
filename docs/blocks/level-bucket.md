@@ -5,7 +5,7 @@ Level Bucket block contains information of buckets.
 ## Identifier
 
 ```ts
-const LevelBucketId = 6
+const LevelBucketId = 2003
 ```
 
 ## Values

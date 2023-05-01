@@ -1,13 +1,13 @@
 # `Frac`
 
-Frac of expression.
+Frac of value.
 
 ## Arguments
 
 | Argument | Description |
 | -------- | ----------- |
-| expr     | Expression  |
+| value    | Value       |
 
 ## Return
 
-Fractional part of expression.
+Fractional part of `value`.

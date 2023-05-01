@@ -5,7 +5,7 @@ Entity Shared Memory Array block contains shared memory of entities.
 ## Identifier
 
 ```ts
-const EntitySharedMemoryArrayId = 12
+const EntitySharedMemoryArrayId = 4102
 ```
 
 ## Values

@@ -1,13 +1,13 @@
 # `Trunc`
 
-Trunc of expression.
+Trunc value.
 
 ## Arguments
 
 | Argument | Description |
 | -------- | ----------- |
-| expr     | Expression  |
+| value    | Value       |
 
 ## Return
 
-Integer part of expression.
+Integer part of `value`.

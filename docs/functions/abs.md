@@ -1,13 +1,13 @@
 # `Abs`
 
-Absolute value of expression.
+Absolute value of value.
 
 ## Arguments
 
 | Argument | Description |
 | -------- | ----------- |
-| expr     | Expression  |
+| value    | Value       |
 
 ## Return
 
-Absolute value of expression.
+Absolute value of `value`.

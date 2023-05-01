@@ -1,13 +1,13 @@
 # `Mod`
 
-Take modulus of expressions.
+Modulus values.
 
 ## Arguments
 
 | Argument | Description |
 | -------- | ----------- |
-| expr...  | Expressions |
+| value... | Values      |
 
 ## Return
 
-Result of expressions taken modulus from first to last.
+Result of values modulus from first to last.

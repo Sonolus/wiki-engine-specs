@@ -4,9 +4,9 @@ Destroy a particle effect instance.
 
 ## Arguments
 
-| Argument | Description                         |
-| -------- | ----------------------------------- |
-| id       | Particle effect instance identifier |
+| Argument   | Description                         |
+| ---------- | ----------------------------------- |
+| particleId | Particle effect instance identifier |
 
 ## Return
 

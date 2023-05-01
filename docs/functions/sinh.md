@@ -1,13 +1,13 @@
 # `Sinh`
 
-Trigonometric sinh function on expression.
+Trigonometric sinh function.
 
 ## Arguments
 
 | Argument | Description |
 | -------- | ----------- |
-| expr     | Expression  |
+| value    | Value       |
 
 ## Return
 
-Sinh of expression.
+Sinh of `value`.

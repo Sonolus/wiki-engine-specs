@@ -6,9 +6,9 @@ Essential topics related to graphics.
 
 Sonolus uses a cardinal coordinate system with (0, 0) at center of the screen with 1 unit equals to half of screen height, and positive direction goes top/right of the screen.
 
-This means `y = -1` to `y = 1` covers the whole screen height, and `x = -aspectRatio` to `x = aspectRatio` covers the whole screen width.
+This means `y = -1` to `y = 1` covers the whole screen height, and `x = -screenAspectRatio` to `x = screenAspectRatio` covers the whole screen width.
 
-You can obtain screen aspect ratio from Level Data block.
+You can obtain screen aspect ratio from Runtime Environment block.
 
 ## Z Value
 

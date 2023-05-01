@@ -1,15 +1,15 @@
 # `If`
 
-Conditionally execute an expression.
+Conditionally execute a branch.
 
 ## Arguments
 
-| Argument | Description      |
-| -------- | ---------------- |
-| cond     | Condition        |
-| true     | True expression  |
-| false    | False expression |
+| Argument   | Description |
+| ---------- | ----------- |
+| test       | Test        |
+| consequent | Consequent  |
+| alternate  | Alternate   |
 
 ## Return
 
-Result of the executed expression.
+`consequent` if `test` is truthy, `alternate` otherwise.

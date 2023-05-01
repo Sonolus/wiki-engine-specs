@@ -1,14 +1,14 @@
 # `Equal`
 
-Compare expressions.
+Compare values.
 
 ## Arguments
 
-| Argument | Description           |
-| -------- | --------------------- |
-| a        | Expression to compare |
-| b        | Expression to compare |
+| Argument | Description |
+| -------- | ----------- |
+| lhs      | Value       |
+| rhs      | Value       |
 
 ## Return
 
-`1` if expressions are equal, `0` otherwise.
+`1` if values are equal, `0` otherwise.

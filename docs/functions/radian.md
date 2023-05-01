@@ -1,12 +1,12 @@
 # `Radian`
 
-Convert of expression from degree to radian.
+Convert value from degree to radian.
 
 ## Arguments
 
 | Argument | Description |
 | -------- | ----------- |
-| expr     | Expression  |
+| value    | Value       |
 
 ## Return
 

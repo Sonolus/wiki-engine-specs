@@ -6,10 +6,10 @@ Linear interpolation between minimum and maximum.
 
 | Argument | Description |
 | -------- | ----------- |
-| a        | Minimum     |
-| b        | Maximum     |
-| x        | Value       |
+| x        | Minimum     |
+| y        | Maximum     |
+| s        | Value       |
 
 ## Return
 
-x linear interpolated between a and b.
+`s` linear interpolated between `x` and `y`.

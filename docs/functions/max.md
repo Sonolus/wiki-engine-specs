@@ -1,14 +1,14 @@
 # `Max`
 
-Maximum value of expressions.
+Maximum of values.
 
 ## Arguments
 
-| Argument | Description           |
-| -------- | --------------------- |
-| a        | Expression to compare |
-| b        | Expression to compare |
+| Argument | Description |
+| -------- | ----------- |
+| x        | Value       |
+| y        | Value       |
 
 ## Return
 
-Maximum value of a and b.
+Maximum of `x` and `y`.

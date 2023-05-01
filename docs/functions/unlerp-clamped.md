@@ -12,4 +12,4 @@ Inverse linear interpolation clamped.
 
 ## Return
 
-x inverse linear interpolated between a and b clamped.
+`x` inverse linear interpolated between `a` and `b` clamped.

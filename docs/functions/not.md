@@ -1,13 +1,13 @@
 # `Not`
 
-Logical not operation on expression.
+Logical not operation on value.
 
 ## Arguments
 
 | Argument | Description |
 | -------- | ----------- |
-| expr     | Expression  |
+| value    | Value       |
 
 ## Return
 
-`1` if expression is `0`, `0` otherwise.
+`1` if `value` is `0`, `0` otherwise.

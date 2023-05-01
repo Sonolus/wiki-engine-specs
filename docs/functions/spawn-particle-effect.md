@@ -15,8 +15,8 @@ Spawn a particle effect.
 | y3       | Y3                         |
 | x4       | X4                         |
 | y4       | Y4                         |
-| t        | Duration                   |
-| loop     | Whether to loop or not     |
+| duration | Duration                   |
+| isLooped | Whether is looped or not   |
 
 ## Return
 

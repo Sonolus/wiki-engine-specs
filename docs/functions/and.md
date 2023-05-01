@@ -1,13 +1,13 @@
 # `And`
 
-Logical and operation on expressions.
+Logical and operation on values.
 
 ## Arguments
 
 | Argument | Description |
 | -------- | ----------- |
-| expr...  | Expressions |
+| value... | Values      |
 
 ## Return
 
-`1` if all expressions are not `0`, `0` otherwise.
+Last `value` if all values are not `0`, `0` otherwise.

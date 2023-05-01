@@ -6,7 +6,7 @@ Stop a looping effect clip instance with low latency.
 
 | Argument | Description                     |
 | -------- | ------------------------------- |
-| id       | Effect clip instance identifier |
+| loopId   | Effect clip instance identifier |
 
 ## Return
 

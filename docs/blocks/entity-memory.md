@@ -5,7 +5,7 @@ Entity Memory block is used as generic memory storage.
 ## Identifier
 
 ```ts
-const EntityMemoryId = 21
+const EntityMemoryId = 4000
 ```
 
 ## Values

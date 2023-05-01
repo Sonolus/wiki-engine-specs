@@ -5,7 +5,7 @@ Level Option block contains values of level options.
 ## Identifier
 
 ```ts
-const LevelOptionId = 2
+const LevelOptionId = 2002
 ```
 
 ## Values

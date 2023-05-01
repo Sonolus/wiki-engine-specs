@@ -1,13 +1,13 @@
 # `Ceil`
 
-Ceil of expression.
+Ceil value.
 
 ## Arguments
 
 | Argument | Description |
 | -------- | ----------- |
-| expr     | Expression  |
+| value    | Value       |
 
 ## Return
 
-Smallest integer greater than or equal to expression.
+Smallest integer greater than or equal to `value`.

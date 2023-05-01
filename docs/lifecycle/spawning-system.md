@@ -4,7 +4,7 @@ Spawning system is responsible for spawning entities that are ready.
 
 ## Spawn Queue
 
-If spawn queue is not empty, `shouldSpawn` callback of first entity in spawn queue will be called. If it returns a truthy, the entity will be spawned and removed from spawn queue, and repeat the process; otherwise, spawning process will be stopped.
+If spawn queue is not empty, `shouldSpawn` callback of first entity in spawn queue will be called. If it returns a truthy value, the entity will be spawned and removed from spawn queue, and repeat the process; otherwise, spawning process will be stopped.
 
 ## `Spawn` Function Queue
 

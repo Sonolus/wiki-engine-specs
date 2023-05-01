@@ -1,13 +1,13 @@
 # `Tan`
 
-Trigonometric tan function on expression.
+Trigonometric tan function.
 
 ## Arguments
 
 | Argument | Description |
 | -------- | ----------- |
-| expr     | Expression  |
+| value    | Value       |
 
 ## Return
 
-Tan of expression.
+Tan of `value`.

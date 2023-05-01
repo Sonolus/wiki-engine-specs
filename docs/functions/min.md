@@ -1,14 +1,14 @@
 # `Min`
 
-Minimum value of expressions.
+Minimum of values.
 
 ## Arguments
 
-| Argument | Description           |
-| -------- | --------------------- |
-| a        | Expression to compare |
-| b        | Expression to compare |
+| Argument | Description |
+| -------- | ----------- |
+| x        | Value       |
+| y        | Value       |
 
 ## Return
 
-Minimum value of a and b.
+Minimum of `x` and `y`.

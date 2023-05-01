@@ -1,13 +1,13 @@
 # `Divide`
 
-Divide expressions.
+Divide values.
 
 ## Arguments
 
 | Argument | Description |
 | -------- | ----------- |
-| expr...  | Expressions |
+| value... | Values      |
 
 ## Return
 
-Result of expressions divided from first to last.
+Result of values divided from first to last.

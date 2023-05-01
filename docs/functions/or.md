@@ -1,13 +1,13 @@
 # `Or`
 
-Logical or operation on expressions.
+Logical or operation on values.
 
 ## Arguments
 
 | Argument | Description |
 | -------- | ----------- |
-| expr...  | Expressions |
+| value... | Values      |
 
 ## Return
 
-`1` if any expression is not `0`, `0` otherwise.
+First non-zero `value` if any `value` is not `0`, `0` otherwise.

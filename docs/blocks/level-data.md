@@ -1,25 +1,18 @@
 # Level Data
 
-Level Data block contains level wide information.
+Level Data block is used as generic data storage.
 
 ## Identifier
 
 ```ts
-const LevelDataId = 1
+const LevelDataId = 2001
 ```
 
 ## Values
 
-| Index  | Initial Value | Description                              |
-| ------ | ------------- | ---------------------------------------- |
-| 0      | ?             | Current time, updated every update cycle |
-| 1      | ?             | Delta time, updated every update cycle   |
-| 2      | ?             | Screen aspect ratio                      |
-| 3      | ?             | Audio offset                             |
-| 4      | ?             | Input offset                             |
-| 5      | ?             | Render scale                             |
-| 6      | ?             | Anti-aliasing                            |
-| 7-4095 | 0             | Unused                                   |
+| Index  | Initial Value | Description  |
+| ------ | ------------- | ------------ |
+| 0-4095 | 0             | Generic data |
 
 ## Access
 

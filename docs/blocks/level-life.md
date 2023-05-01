@@ -5,7 +5,7 @@ Level Life block contains configuration for life system.
 ## Identifier
 
 ```ts
-const LevelLifeId = 8
+const LevelLifeId = 2005
 ```
 
 ## Values

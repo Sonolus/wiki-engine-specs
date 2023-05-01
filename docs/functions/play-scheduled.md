@@ -7,8 +7,8 @@ Play an effect clip precisely at a scheduled time in the future.
 | Argument | Description                                            |
 | -------- | ------------------------------------------------------ |
 | id       | Clip identifier                                        |
-| t        | Time                                                   |
-| dist     | Minimum time distance from last play of the same clip. |
+| time     | Time                                                   |
+| distance | Minimum time distance from last play of the same clip. |
 
 ## Return
 

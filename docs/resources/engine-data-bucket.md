@@ -6,12 +6,13 @@ Engine data bucket is used by Sonolus app to populate judgment graphs in result 
 
 ```ts
 type EngineDataBucket = {
-    sprites: EngineDataSprite[]
+    sprites: EngineDataBucketSprite[]
+    unit?: string
 }
 
-type EngineDataSprite = {
-    id: SkinSprite
-    fallbackId?: SkinSprite
+type EngineDataBucketSprite = {
+    id: number
+    fallbackId?: number
     x: number
     y: number
     w: number
@@ -26,13 +27,15 @@ type EngineDataSprite = {
 {
     "sprites": [
         {
-            "id": 1001,
+            "id": 0,
+            "fallbackId": 1,
             "x": 0,
             "y": 0,
             "w": 2,
             "h": 2,
             "rotation": 0
         }
-    ]
+    ],
+    "unit": "#MILLISECOND"
 }
 ```

@@ -1,13 +1,13 @@
 # `While`
 
-Repeatedly execute expressions until condition is false.
+Repeatedly execute body while test is truthy.
 
 ## Arguments
 
 | Argument | Description |
 | -------- | ----------- |
-| cond     | Condition   |
-| expr...  | Expressions |
+| test     | Test        |
+| body     | Body        |
 
 ## Return
 

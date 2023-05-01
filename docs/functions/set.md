@@ -1,15 +1,15 @@
 # `Set`
 
-Set a value to block.
+Set a value in block.
 
 ## Arguments
 
 | Argument | Description      |
 | -------- | ---------------- |
 | id       | Block identifier |
-| i        | Index            |
+| index    | Index            |
 | value    | Value            |
 
 ## Return
 
-`0`.
+Value.
