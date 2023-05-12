@@ -21,7 +21,7 @@ const LevelOptionId = 2002
 
 | Callback           | Read | Write |
 | ------------------ | :--: | :---: |
-| `preprocess`       |  ✔   |   ✔   |
+| `preprocess`       |  ✔   |  ❌   |
 | `spawnOrder`       |  ✔   |  ❌   |
 | `shouldSpawn`      |  ✔   |  ❌   |
 | `initialize`       |  ✔   |  ❌   |

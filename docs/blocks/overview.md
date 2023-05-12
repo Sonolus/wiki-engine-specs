@@ -57,7 +57,7 @@ Blocks can be accessed using `Get` and `Set` functions.
 | Runtime UI Configuration   |      ✔       |      ❌      |      ❌       |      ❌      |         ❌         |   ❌    |        ❌        |     ❌      |
 | Level Memory               |      ✔       |      ❌      |      ❌       |      ❌      |         ✔          |    ✔    |        ❌        |     ❌      |
 | Level Data                 |      ✔       |      ❌      |      ❌       |      ❌      |         ❌         |   ❌    |        ❌        |     ❌      |
-| Level Option               |      ✔       |      ❌      |      ❌       |      ❌      |         ❌         |   ❌    |        ❌        |     ❌      |
+| Level Option               |      ❌      |      ❌      |      ❌       |      ❌      |         ❌         |   ❌    |        ❌        |     ❌      |
 | Level Bucket               |      ✔       |      ❌      |      ❌       |      ❌      |         ❌         |   ❌    |        ❌        |     ❌      |
 | Level Score                |      ✔       |      ❌      |      ❌       |      ❌      |         ❌         |   ❌    |        ❌        |     ❌      |
 | Level Life                 |      ✔       |      ❌      |      ❌       |      ❌      |         ❌         |   ❌    |        ❌        |     ❌      |
