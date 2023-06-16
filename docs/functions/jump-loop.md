@@ -14,4 +14,4 @@ Executes 0th branch, then executes branch pointed by the execution result, repea
 
 ## Return
 
-Result of the last branch, or `0` if branch is not found.
+Result of the `branch_last`, or `0` if branch is not found.

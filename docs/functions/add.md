@@ -1,13 +1,13 @@
 # `Add`
 
-Add expressions.
+Add values.
 
 ## Arguments
 
 | Argument | Description |
 | -------- | ----------- |
-| expr...  | Expressions |
+| value... | Values      |
 
 ## Return
 
-Result of expressions added from first to last.
+Result of values added from first to last.

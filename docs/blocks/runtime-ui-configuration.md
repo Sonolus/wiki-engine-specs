@@ -1,11 +1,11 @@
-# Level UI Configuration
+# Runtime UI Configuration
 
-Level UI Configuration block contains configuration of gameplay UI elements.
+Runtime UI Configuration block contains configuration of gameplay UI elements.
 
 ## Identifier
 
 ```ts
-const LevelUIConfigurationId = 9
+const RuntimeUIConfigurationId = 1007
 ```
 
 ## Values

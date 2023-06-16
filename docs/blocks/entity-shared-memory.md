@@ -5,7 +5,7 @@ Entity Shared Memory block is used as generic memory storage that are accessible
 ## Identifier
 
 ```ts
-const EntitySharedMemoryId = 24
+const EntitySharedMemoryId = 4002
 ```
 
 ## Values

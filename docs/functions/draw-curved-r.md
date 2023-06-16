@@ -18,8 +18,8 @@ Draw a skin sprite with curved edge.
 | z        | Z                                |
 | a        | Alpha                            |
 | n        | Number of segments               |
-| cxR      | X of control point on right edge |
-| cyR      | Y of control point on right edge |
+| p        | P of control point on right edge |
+| q        | Q of control point on right edge |
 
 ## Return
 
@@ -28,6 +28,8 @@ Draw a skin sprite with curved edge.
 ## Remarks
 
 Points are in the order of bottom-left, top-left, top-right, bottom-right.
+
+Control point is calculated by bilinear interpolation using `p` and `q`, where bottom-left point is at `(-1, -1)` and top-right point is at `(1, 1)`.
 
 A Bézier curve is drawn on the curved edge with respective vertexes and control point.
 

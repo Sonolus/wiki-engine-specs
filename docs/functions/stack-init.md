@@ -1,6 +1,6 @@
-# `IsDebug`
+# `StackInit`
 
-Check if in debug mode.
+Initialize stack.
 
 ## Arguments
 
@@ -9,4 +9,4 @@ Check if in debug mode.
 
 ## Return
 
-`1` if in debug mode, `0` otherwise.
+`0`.

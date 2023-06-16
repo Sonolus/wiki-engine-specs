@@ -5,7 +5,7 @@ Entity Data block is used as generic data storage.
 ## Identifier
 
 ```ts
-const EntityDataId = 22
+const EntityDataId = 4001
 ```
 
 ## Values
@@ -14,7 +14,7 @@ const EntityDataId = 22
 | ----- | ------------- | ------------ |
 | 0-31  | ?             | Generic data |
 
-Values are initially set to all 0, then `archetype.data` will be injected, and finally `entity.data` will be injected.
+Values are initially set to all 0, and `entity.data` will be injected according to `archetype.data`.
 
 ## Access
 

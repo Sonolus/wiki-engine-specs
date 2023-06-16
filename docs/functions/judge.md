@@ -4,16 +4,16 @@ Judge player timing.
 
 ## Arguments
 
-| Argument | Description              |
-| -------- | ------------------------ |
-| target   | Target timing            |
-| source   | Player timing            |
-| min_1    | Minimum Perfect distance |
-| max_1    | Maximum Perfect distance |
-| min_2    | Minimum Great distance   |
-| max_2    | Maximum Great distance   |
-| min_3    | Minimum Good distance    |
-| max_3    | Maximum Good distance    |
+| Argument   | Description              |
+| ---------- | ------------------------ |
+| source     | Player timing            |
+| target     | Target timing            |
+| minPerfect | Minimum Perfect distance |
+| maxPerfect | Maximum Perfect distance |
+| minGreat   | Minimum Great distance   |
+| maxGreat   | Maximum Great distance   |
+| minGood    | Minimum Good distance    |
+| maxGood    | Maximum Good distance    |
 
 ## Return
 

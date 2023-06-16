@@ -14,4 +14,4 @@ Remap value from one range to another clamped.
 
 ## Return
 
-x remapped from range a to b to range c to d clamped.
+`x` remapped from range `a` to `b` to range `c` to `d` clamped.

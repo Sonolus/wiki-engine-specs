@@ -1,6 +1,6 @@
 # `Arctan2`
 
-Trigonometric arctan function on expression.
+Trigonometric arctan function.
 
 ## Arguments
 
@@ -11,4 +11,4 @@ Trigonometric arctan function on expression.
 
 ## Return
 
-Arctan of y/x.
+Arctan of `y / x`.

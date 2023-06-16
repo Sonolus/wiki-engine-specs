@@ -5,7 +5,7 @@ Level Memory block is used as generic memory storage.
 ## Identifier
 
 ```ts
-const LevelMemoryId = 0
+const LevelMemoryId = 2000
 ```
 
 ## Values

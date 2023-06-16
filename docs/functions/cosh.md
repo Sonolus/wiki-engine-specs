@@ -1,13 +1,13 @@
 # `Cosh`
 
-Trigonometric cosh function on expression.
+Trigonometric cosh function.
 
 ## Arguments
 
 | Argument | Description |
 | -------- | ----------- |
-| expr     | Expression  |
+| value    | Value       |
 
 ## Return
 
-Cosh of expression.
+Cosh of `value`.

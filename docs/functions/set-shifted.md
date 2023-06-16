@@ -1,20 +1,21 @@
 # `SetShifted`
 
-Set a value to block.
+Set a value in block.
 
 ## Arguments
 
 | Argument | Description      |
 | -------- | ---------------- |
 | id       | Block identifier |
-| i        | Index            |
-| d        | Offset           |
+| x        | X                |
+| y        | Y                |
+| s        | S                |
 | value    | Value            |
 
 ## Return
 
-`0`.
+Value.
 
 ## Remarks
 
-It is the same as `Set(id, i + d, value)`.
+Equivalent to: `Set(id, x + y * s, value)`.

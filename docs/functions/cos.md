@@ -1,13 +1,13 @@
 # `Cos`
 
-Trigonometric cos function on expression.
+Trigonometric cos function.
 
 ## Arguments
 
 | Argument | Description |
 | -------- | ----------- |
-| expr     | Expression  |
+| value    | Value       |
 
 ## Return
 
-Cos of expression.
+Cos of `value`.

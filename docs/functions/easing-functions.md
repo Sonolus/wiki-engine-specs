@@ -1,16 +1,16 @@
 # Easing Functions
 
-Ease input based on easing curves.
+Ease value based on easing curves.
 
 ## Arguments
 
 | Argument | Description |
 | -------- | ----------- |
-| x        | X           |
+| value    | Value       |
 
 ## Return
 
-Eased value at x.
+Eased value at `value`.
 
 ## Remarks
 

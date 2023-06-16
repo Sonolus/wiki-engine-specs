@@ -1,13 +1,13 @@
 # `Sign`
 
-Sign of expression.
+Sign of value.
 
 ## Arguments
 
 | Argument | Description |
 | -------- | ----------- |
-| expr     | Expression  |
+| value    | Value       |
 
 ## Return
 
-Sign of expression.
+Sign of `value`.

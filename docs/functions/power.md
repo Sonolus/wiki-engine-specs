@@ -1,13 +1,13 @@
 # `Power`
 
-Exponentiate expressions.
+Exponentiate values.
 
 ## Arguments
 
 | Argument | Description |
 | -------- | ----------- |
-| expr...  | Expressions |
+| value... | Values      |
 
 ## Return
 
-Result of expressions exponentiated from first to last.
+Result of values exponentiated from first to last.

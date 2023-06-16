@@ -1,14 +1,14 @@
 # `LessOr`
 
-Compare expressions.
+Compare values.
 
 ## Arguments
 
-| Argument | Description           |
-| -------- | --------------------- |
-| a        | Expression to compare |
-| b        | Expression to compare |
+| Argument | Description |
+| -------- | ----------- |
+| lhs      | Value       |
+| rhs      | Value       |
 
 ## Return
 
-`1` if a is less than or equal to b, `0` otherwise.
+`1` if `lhs` is less than or equal to `rhs`, `0` otherwise.

@@ -21,12 +21,7 @@ type EngineConfigurationUI = {
     judgmentErrorMin: number
 }
 
-type EngineConfigurationMetric =
-    | 'arcade'
-    | 'accuracy'
-    | 'life'
-    | 'perfectRate'
-    | 'errorHeatmap'
+type EngineConfigurationMetric = 'arcade' | 'accuracy' | 'life' | 'perfectRate' | 'errorHeatmap'
 
 type EngineConfigurationVisibility = {
     scale: number

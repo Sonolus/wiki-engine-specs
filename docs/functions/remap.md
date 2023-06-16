@@ -14,4 +14,4 @@ Remap value from one range to another.
 
 ## Return
 
-x remapped from range a to b to range c to d.
+`x `remapped from range `a` to `b` to range `c` to `d`.

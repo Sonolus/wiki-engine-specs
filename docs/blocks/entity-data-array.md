@@ -5,7 +5,7 @@ Entity Data Array block contains data of entities.
 ## Identifier
 
 ```ts
-const EntityDataArrayId = 11
+const EntityDataArrayId = 4101
 ```
 
 ## Values

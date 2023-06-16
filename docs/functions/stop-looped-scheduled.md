@@ -6,8 +6,8 @@ Stop a looping effect clip instance precisely at a scheduled time in the future.
 
 | Argument | Description                     |
 | -------- | ------------------------------- |
-| id       | Effect clip instance identifier |
-| t        | Time                            |
+| loopId   | Effect clip instance identifier |
+| endTime  | End time                        |
 
 ## Return
 

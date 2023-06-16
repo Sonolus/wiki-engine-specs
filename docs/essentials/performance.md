@@ -12,4 +12,4 @@ For example, reduce code `updateSequential` in callbacks to only that needs to w
 
 Sonolus has a sizable overhead when executing a node, even for a value note. It is recommended to reduce node count to improve performance, by more efficient code or leveraging optimization system.
 
-For example (ignoring optimization system), `Get(1, Add(2, 3))` executes 5 nodes, while `GetShifted(1, 2, 3)` executes only 4 nodes and thus is preferred.
+For example (ignoring optimization system), `Get(1, Add(2, Multiply(3, 4)))` executes 7 nodes, while `GetShifted(1, 2, 3, 4)` executes only 5 nodes and thus is preferred.

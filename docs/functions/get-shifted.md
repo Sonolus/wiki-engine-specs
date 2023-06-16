@@ -1,19 +1,20 @@
 # `GetShifted`
 
-Get a value from block.
+Get a value in block.
 
 ## Arguments
 
 | Argument | Description      |
 | -------- | ---------------- |
 | id       | Block identifier |
-| i        | Index            |
-| d        | Offset           |
+| x        | X                |
+| y        | Y                |
+| s        | S                |
 
 ## Return
 
-Value at index i + d of the block id, or `0` if index is out of range or block does not exist.
+Value.
 
 ## Remarks
 
-It is the same as `Get(id, i + d)`.
+Equivalent to: `Get(id, x + y * s)`.

@@ -1,15 +1,14 @@
-# `Random`
+# `RandomInteger`
 
-Randomize between minimum and maximum.
+Randomize integer between minimum and maximum.
 
 ## Arguments
 
 | Argument | Description |
 | -------- | ----------- |
-| a        | Minimum     |
-| b        | Maximum     |
-| x        | Value       |
+| min      | Minimum     |
+| max      | Maximum     |
 
 ## Return
 
-Random integer between a (inclusive) and b (exclusive).
+Random integer number between `min` (inclusive) and `max` (exclusive).

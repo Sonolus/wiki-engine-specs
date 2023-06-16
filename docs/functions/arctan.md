@@ -1,13 +1,13 @@
 # `Arctan`
 
-Trigonometric arctan function on expression.
+Trigonometric arctan function.
 
 ## Arguments
 
 | Argument | Description |
 | -------- | ----------- |
-| expr     | Expression  |
+| value    | Value       |
 
 ## Return
 
-Arctan of expression.
+Arctan of `value`.

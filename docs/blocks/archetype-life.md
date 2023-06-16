@@ -5,7 +5,7 @@ Archetype Life block contains life configuration of each archetype.
 ## Identifier
 
 ```ts
-const ArchetypeLifeId = 30
+const ArchetypeLifeId = 5000
 ```
 
 ## Values

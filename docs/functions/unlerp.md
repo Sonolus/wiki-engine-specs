@@ -12,4 +12,4 @@ Inverse linear interpolation.
 
 ## Return
 
-x inverse linear interpolated between a and b.
+`x` inverse linear interpolated between `a` and `b`.

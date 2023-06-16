@@ -40,21 +40,25 @@ Engine data is the brain of an engine.
 
 Engine data consists of archetypes, scripts, nodes, and buckets.
 
+### Skin
+
+Skin declares which skin sprites the engine wants access to.
+
+### Effect
+
+Effect declares which effect clips the engine wants access to.
+
+### Particle
+
+Particle declares which particle effects the engine wants access to.
+
 ### Archetypes
 
 Archetypes are abstractions of entities.
 
 For example, an engine may have a "tap note" archetype, which is a note needs to be tapped by players. A level can have multiple "tap note" entities all using the same "tap note" archetype, but with different entity data.
 
-In OOP, an archetype would be a class, and an entity would be an instance of a class.
-
-### Scripts
-
-Scripts are behavioral abstractions of archetypes.
-
-For example, an engine may have a "tap note" script, which is a script that handles the behavior of a tap note. Multiple archetypes ("red tap note", "green tap note") can use the same "tap note" script, but with different archetype data.
-
-In OOP, a script would be all the methods of a class.
+In object oriented programming, an archetype would be a class, and an entity would be an instance of a class.
 
 ### Nodes
 

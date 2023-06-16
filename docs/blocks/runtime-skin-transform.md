@@ -1,11 +1,11 @@
-# Level Transform
+# Runtime Skin Transform
 
-Level Transform block is a 4x4 transformation matrix that is applied to all skin sprites and particle effects.
+Runtime Skin Transform block is a 4x4 transformation matrix that is applied to all skin sprites.
 
 ## Identifier
 
 ```ts
-const LevelTransformId = 3
+const RuntimeSkinTransformId = 1003
 ```
 
 ## Values

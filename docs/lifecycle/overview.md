@@ -8,13 +8,17 @@ Preparation runs once and only once before the start of a level, and prepares th
 
 Preparation consists of preprocessing system, spawn ordering system, and optimization system.
 
+### Early Optimization System
+
+Early optimization system is responsible for optimizing nodes to improve code performance.
+
 ### Preprocessing System
 
 Preprocessing system is responsible for setting up or modifying blocks to be used throughout the gameplay.
 
-### Optimization System
+### Late Optimization System
 
-Optimization system is responsible for optimizing nodes to improve code performance.
+Late optimization system is responsible for optimizing nodes to further improve code performance.
 
 ### Spawn Ordering System
 

@@ -1,13 +1,13 @@
 # `Multiply`
 
-Multiply expressions.
+Multiply values.
 
 ## Arguments
 
 | Argument | Description |
 | -------- | ----------- |
-| expr...  | Expressions |
+| value... | Values      |
 
 ## Return
 
-Result of expressions multiplied from first to last.
+Result of values multiplied from first to last.

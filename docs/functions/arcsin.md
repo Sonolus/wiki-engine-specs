@@ -1,13 +1,13 @@
 # `Arcsin`
 
-Trigonometric arcsin function on expression.
+Trigonometric arcsin function.
 
 ## Arguments
 
 | Argument | Description |
 | -------- | ----------- |
-| expr     | Expression  |
+| value    | Value       |
 
 ## Return
 
-Arcsin of expression.
+Arcsin of `value`.

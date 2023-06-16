@@ -6,32 +6,67 @@ Engine data archetype is used by level to populate entities during gameplay.
 
 ```ts
 type EngineDataArchetype = {
-    script: number
-    data?: {
+    name: string
+    hasInput: boolean
+    preprocess?: EngineDataArchetypeCallback
+    spawnOrder?: EngineDataArchetypeCallback
+    shouldSpawn?: EngineDataArchetypeCallback
+    initialize?: EngineDataArchetypeCallback
+    updateSequential?: EngineDataArchetypeCallback
+    touch?: EngineDataArchetypeCallback
+    updateParallel?: EngineDataArchetypeCallback
+    terminate?: EngineDataArchetypeCallback
+    data: {
+        name: string
         index: number
-        values: number[]
-    }
-    input?: boolean
+    }[]
+}
+
+type EngineDataArchetypeCallback = {
+    index: number
+    order?: number
 }
 ```
 
-### `script`
+### `name`
 
-Index of script in `scripts` array.
+Name of this archetype, which will be referenced by entities in level data.
 
-### `input`
+Special archetype names will have its effect applied automatically:
+
+-   `#BPM_CHANGE`: Signals a BPM change and will affect BPM change related functions. Entity with this archetype must also provide data named `#BEAT` and `#BPM`.
+
+-   `#TIMESCALE_CHANGE`: Signals a time scale change and will affect time scale change related functions. Entity with this archetype must also provide data named `#BEAT` and `#TIMESCALE`.
+
+### `hasInput`
 
 If true, Sonolus will treat entities with this archetype to be playable entities, and will contribute to judgment, combo, life, score, etc.
+
+### `data`
+
+Entity data to be inject into Entity Data block.
+
+Entity data with matching `name` will be injected at `index` of Entity Data block.
+
+### `EngineDataArchetypeCallback.index`
+
+Index of entry node in `nodes` array.
 
 ## Example
 
 ```json
 {
-    "script": 0,
-    "data": {
-        "index": 5,
-        "values": [10, 20]
+    "name": "TapNote",
+    "hasInput": true,
+    "preprocess": {
+        "index": 0,
+        "order": 0
     },
-    "input": true
+    "data": [
+        {
+            "name": "#BEAT",
+            "index": 0
+        }
+    ]
 }
 ```

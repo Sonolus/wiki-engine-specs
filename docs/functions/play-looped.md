@@ -16,4 +16,4 @@ A unique identifier of the looping effect clip instance.
 
 The clip starts looping at the lowest latency possible immediately, with no guarantee for consistent latency for multiple `PlayLooped` function calls.
 
-Returned identifier can be used to control the effect clip instance using `StopLooped` and `StopLoopedScheduled` functions.
+Returned identifier can be used to control the effect clip instance using `StopLooped` function.

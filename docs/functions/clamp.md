@@ -12,4 +12,4 @@ Clamp value between minimum and maximum.
 
 ## Return
 
-a if x is less than a, b if x is greater than b, otherwise x.
+`a` if `x` is less than `a`, `b` if `x` is greater than `b`, `x` otherwise.

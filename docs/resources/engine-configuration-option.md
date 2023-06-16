@@ -46,7 +46,7 @@ Standardized option names starts with `#` and will be translated into client lan
 
 Special options names will have its effect applied automatically:
 
--   `#SPEED`: Change speed of BGM.
+-   `#SPEED`: Change speed of BGM and BPM values.
 
 ### `standard`
 

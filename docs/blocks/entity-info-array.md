@@ -5,7 +5,7 @@ Entity Info Array block contains state information of entities.
 ## Identifier
 
 ```ts
-const EntityInfoArrayId = 10
+const EntityInfoArrayId = 4103
 ```
 
 ## Values

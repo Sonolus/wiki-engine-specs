@@ -1,13 +1,13 @@
 # `Execute`
 
-Execute expressions.
+Execute values.
 
 ## Arguments
 
 | Argument | Description |
 | -------- | ----------- |
-| expr...  | Expressions |
+| value... | Value       |
 
 ## Return
 
-Result of the last expression.
+Result of the last value.

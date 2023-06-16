@@ -7,7 +7,7 @@ Play an effect clip with low latency.
 | Argument | Description                                            |
 | -------- | ------------------------------------------------------ |
 | id       | Clip identifier                                        |
-| dist     | Minimum time distance from last play of the same clip. |
+| distance | Minimum time distance from last play of the same clip. |
 
 ## Return
 

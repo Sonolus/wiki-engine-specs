@@ -1,11 +1,11 @@
 # Entity Input
 
-Entity Data block is used by entities to pass input information back to Sonolus.
+Entity Input block is used by entities to pass input information back to Sonolus.
 
 ## Identifier
 
 ```ts
-const EntityInputId = 23
+const EntityInputId = 4005
 ```
 
 ## Values
@@ -14,7 +14,7 @@ const EntityInputId = 23
 | ----- | ------------- | --------------------------------------------------------------------------------------------------- |
 | 0     | 0             | Judgment of the entity: `0` = Miss, `1` = Perfect, `2` = Great, `3` = Good                          |
 | 1     | 0             | Accuracy of the entity                                                                              |
-| 2     | -1            | Assigned bucket of the entity: `-1` = none, `0` = 0th bucket, `1`= 1st bucket, `2`= 2nd bucket, etc |
+| 2     | -1            | Assigned bucket of the entity: `-1` = None, `0` = 0th bucket, `1`= 1st bucket, `2`= 2nd bucket, etc |
 | 3     | 0             | Bucket value of the entity                                                                          |
 
 ## Access

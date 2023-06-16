@@ -5,7 +5,7 @@ Engine Rom block contains read only memory provided by engine.
 ## Identifier
 
 ```ts
-const EngineRomId = 50
+const EngineRomId = 3000
 ```
 
 ## Values
@@ -34,4 +34,4 @@ Values are read from engine rom resource.
 
 ## Remarks
 
-Engine Rom provides an efficient way to store and use large amount of data for engines have such a need.
+Engine Rom provides an efficient way to store and use large amount of data for engines with such a need.

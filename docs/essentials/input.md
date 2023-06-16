@@ -8,7 +8,7 @@ Inputs received from operating system can happen at anytime during an update cyc
 
 Due to this, when processing inputs it is important to keep a few things in mind.
 
-### A Touch to be Both Started and Ended
+### A Touch can be Both Started and Ended
 
 It is possible that user starts a new touch and releases it within the same update cycle, if fast enough physically or frame rate drops unexpectedly.
 
@@ -36,4 +36,6 @@ It's tempting to use touch t to judge when user moves their touch, however the b
 
 There is a unavoidable delay between when user physically touches the screen, and when operating system actually receives it. Thus Sonolus offers input offset calibration, and when judging engines should take this offset into account.
 
-You can obtain input offset from Level Data block.
+Values of touch t and st already have input offset taken into account.
+
+You can obtain input offset from Runtime Environment block.

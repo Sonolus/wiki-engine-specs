@@ -1,14 +1,14 @@
 # `NotEqual`
 
-Compare expressions.
+Compare values.
 
 ## Arguments
 
-| Argument | Description           |
-| -------- | --------------------- |
-| a        | Expression to compare |
-| b        | Expression to compare |
+| Argument | Description |
+| -------- | ----------- |
+| lhs      | Value       |
+| rhs      | Value       |
 
 ## Return
 
-`1` if expressions are not equal, `0` otherwise.
+`1` if values are not equal, `0` otherwise.

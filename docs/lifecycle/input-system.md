@@ -4,7 +4,7 @@ Input system is responsible for processing user inputs for active entities.
 
 ## `touch` Callback
 
-System loops through all input events happened in current update cycle. For each input event, system loops through all active entities sequentially based on their `touch` callback order. For each entity `touch` callback is executed.
+If there is any input event happened in current update cycle, system loops through all active entities sequentially based on their `touch` callback order. For each entity `touch` callback is executed.
 
 ## Remarks
 

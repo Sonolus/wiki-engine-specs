@@ -6,10 +6,9 @@ Randomize between minimum and maximum.
 
 | Argument | Description |
 | -------- | ----------- |
-| a        | Minimum     |
-| b        | Maximum     |
-| x        | Value       |
+| min      | Minimum     |
+| max      | Maximum     |
 
 ## Return
 
-Random number between a (inclusive) and b (inclusive).
+Random number between `min` (inclusive) and `max` (inclusive).

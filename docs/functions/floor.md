@@ -1,13 +1,13 @@
 # `Floor`
 
-Floor of expression.
+Floor value.
 
 ## Arguments
 
 | Argument | Description |
 | -------- | ----------- |
-| expr     | Expression  |
+| value    | Value       |
 
 ## Return
 
-Biggest integer less than or equal to expression.
+Biggest integer less than or equal to `value`.

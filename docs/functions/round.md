@@ -1,13 +1,13 @@
 # `Round`
 
-Round of expression.
+Round value.
 
 ## Arguments
 
 | Argument | Description |
 | -------- | ----------- |
-| expr     | Expression  |
+| value    | Value       |
 
 ## Return
 
-Nearest integer to expression.
+Nearest integer to `value`.

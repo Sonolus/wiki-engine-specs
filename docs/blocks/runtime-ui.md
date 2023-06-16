@@ -1,11 +1,11 @@
-# Level UI
+# Runtime UI
 
-Level UI block is used to pass UI layout information back to Sonolus.
+Runtime UI block is used to pass UI layout information back to Sonolus.
 
 ## Identifier
 
 ```ts
-const LevelUIId = 5
+const RuntimeUIId = 1006
 ```
 
 ## Values
@@ -33,7 +33,7 @@ For each UI:
 | UI offset + 5 | 0             | Height                                                   |
 | UI offset + 6 | 0             | Rotation                                                 |
 | UI offset + 7 | 0             | Alpha                                                    |
-| UI offset + 8 | 0             | Horizontal align: `-1` = left, `0` = center, `1` = right |
+| UI offset + 8 | 0             | Horizontal align: `-1` = Left, `0` = Center, `1` = Right |
 | UI offset + 9 | 0             | Background                                               |
 
 ## Access
@@ -51,6 +51,4 @@ For each UI:
 
 ## Remarks
 
-Level UI is not affected by Level Transform.
-
-It is recommended to adjust UI layout based on various factors such as screen aspect ratio, options, and Level UI Configuration.
+It is recommended to adjust UI layout based on various factors such as screen aspect ratio, options, and Runtime UI Configuration.

@@ -1,13 +1,13 @@
 # `Subtract`
 
-Subtract expressions.
+Subtract values.
 
 ## Arguments
 
 | Argument | Description |
 | -------- | ----------- |
-| expr...  | Expressions |
+| value... | Values      |
 
 ## Return
 
-Result of expressions subtracted from first to last.
+Result of values subtracted from first to last.

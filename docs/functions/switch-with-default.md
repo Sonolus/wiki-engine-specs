@@ -1,21 +1,21 @@
 # `SwitchWithDefault`
 
-Conditionally execute an expression.
+Conditionally execute a branch.
 
 ## Arguments
 
-| Argument | Description                                |
-| -------- | ------------------------------------------ |
-| cond     | Condition                                  |
-| case_1   | Case 1 value                               |
-| expr_1   | Case 1 expression if cond equals to case_1 |
-| case_2   | Case 2 value                               |
-| expr_2   | Case 2 expression if cond equals to case_2 |
-| case_3   | Case 3 value                               |
-| expr_3   | Case 3 expression if cond equals to case_3 |
-| ...      | ...                                        |
-| expr_def | Default expression if no case matches      |
+| Argument       | Description         |
+| -------------- | ------------------- |
+| discriminant   | Discriminant        |
+| test_0         | Branch 0 test       |
+| consequent_0   | Branch 0 consequent |
+| test_1         | Branch 1 test       |
+| consequent_1   | Branch 1 consequent |
+| test_2         | Branch 2 test       |
+| consequent_2   | Branch 2 consequent |
+| ...            | ...                 |
+| consequent_def | Default consequent  |
 
 ## Return
 
-Result of the executed expression.
+`consequent_n` of branch where `discriminant` equals to `test_n`, or `consequent_def` if no branch matches.

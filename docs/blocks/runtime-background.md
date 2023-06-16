@@ -1,11 +1,11 @@
-# Level Background
+# Runtime Background
 
-Level Background block contains quad coordinates of background image.
+Runtime Background block contains quad coordinates of background image.
 
 ## Identifier
 
 ```ts
-const LevelBackgroundId = 4
+const RuntimeBackgroundId = 1005
 ```
 
 ## Values
@@ -37,7 +37,3 @@ Values are initialized based on background's configuration.
 | `touch`            |  ✔   |   ✔   |
 | `updateParallel`   |  ✔   |  ❌   |
 | `terminate`        |  ✔   |  ❌   |
-
-## Remarks
-
-Level Background is not affected by Level Transform.

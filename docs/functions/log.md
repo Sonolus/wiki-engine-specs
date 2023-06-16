@@ -1,13 +1,13 @@
 # `Log`
 
-Take natural log of expression.
+Natural log of value.
 
 ## Arguments
 
 | Argument | Description |
 | -------- | ----------- |
-| expr     | Expression  |
+| `value`  | Value       |
 
 ## Return
 
-Result of expression taken natural log.
+Natural log of `value`.

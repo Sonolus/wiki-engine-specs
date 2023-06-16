@@ -1,16 +1,16 @@
-# `Judge`
+# `JudgeSimple`
 
 Judge player timing.
 
 ## Arguments
 
-| Argument | Description              |
-| -------- | ------------------------ |
-| target   | Target timing            |
-| source   | Player timing            |
-| max_1    | Maximum Perfect distance |
-| max_2    | Maximum Great distance   |
-| max_3    | Maximum Good distance    |
+| Argument   | Description              |
+| ---------- | ------------------------ |
+| source     | Player timing            |
+| target     | Target timing            |
+| maxPerfect | Maximum Perfect distance |
+| maxGreat   | Maximum Great distance   |
+| maxGood    | Maximum Good distance    |
 
 ## Return
 
@@ -18,4 +18,4 @@ Judge player timing.
 
 ## Remarks
 
-It is the same as `Judge(target, source, -max1, max1, -max2, max2, -max3, max3)`.
+It is the same as `Judge(source, target, -maxPerfect, maxPerfect, -maxGreat, maxGreat, -maxGood, maxGood)`.
