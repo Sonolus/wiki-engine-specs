@@ -1,4 +1,4 @@
-# `StackPop`
+# `StackPush`
 
 Push a value onto stack.
 
