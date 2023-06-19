@@ -12,9 +12,9 @@ const RuntimeTouchArrayId = 1002
 
 | Index | Initial Value | Description              |
 | ----- | ------------- | ------------------------ |
-| 0-2   | ?             | Information of 0th touch |
-| 3-5   | ?             | Information of 1st touch |
-| 6-8   | ?             | Information of 2nd touch |
+| 0-14  | ?             | Information of 0th touch |
+| 15-29 | ?             | Information of 1st touch |
+| 30-44 | ?             | Information of 2nd touch |
 | ...   | ...           | ...                      |
 
 For each touch:
