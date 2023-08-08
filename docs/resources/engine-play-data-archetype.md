@@ -1,28 +1,28 @@
-# Engine Data Archetype
+# Engine Play Data Archetype
 
-Engine data archetype is used by level to populate entities during gameplay.
+Engine play data archetype is used by level to populate entities in play mode.
 
 ## Syntax
 
 ```ts
-type EngineDataArchetype = {
-    name: string
+type EnginePlayDataArchetype = {
+    name: EngineArchetypeName | (string & {})
     hasInput: boolean
-    preprocess?: EngineDataArchetypeCallback
-    spawnOrder?: EngineDataArchetypeCallback
-    shouldSpawn?: EngineDataArchetypeCallback
-    initialize?: EngineDataArchetypeCallback
-    updateSequential?: EngineDataArchetypeCallback
-    touch?: EngineDataArchetypeCallback
-    updateParallel?: EngineDataArchetypeCallback
-    terminate?: EngineDataArchetypeCallback
+    preprocess?: EnginePlayDataArchetypeCallback
+    spawnOrder?: EnginePlayDataArchetypeCallback
+    shouldSpawn?: EnginePlayDataArchetypeCallback
+    initialize?: EnginePlayDataArchetypeCallback
+    updateSequential?: EnginePlayDataArchetypeCallback
+    touch?: EnginePlayDataArchetypeCallback
+    updateParallel?: EnginePlayDataArchetypeCallback
+    terminate?: EnginePlayDataArchetypeCallback
     data: {
-        name: string
+        name: EngineArchetypeDataName | (string & {})
         index: number
     }[]
 }
 
-type EngineDataArchetypeCallback = {
+type EnginePlayDataArchetypeCallback = {
     index: number
     order?: number
 }
@@ -48,7 +48,7 @@ Entity data to be inject into Entity Data block.
 
 Entity data with matching `name` will be injected at `index` of Entity Data block.
 
-### `EngineDataArchetypeCallback.index`
+### `EnginePlayDataArchetypeCallback.index`
 
 Index of entry node in `nodes` array.
 

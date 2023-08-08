@@ -12,7 +12,7 @@ const RuntimeUIId = 1006
 
 | Index | Initial Value | Description                                     |
 | ----- | ------------- | ----------------------------------------------- |
-| 0-10  | 0             | Layout information of menu UI                   |
+| 0-9   | 0             | Layout information of menu UI                   |
 | 10-19 | 0             | Layout information of judgment UI               |
 | 20-29 | 0             | Layout information of combo value UI            |
 | 30-39 | 0             | Layout information of combo text UI             |

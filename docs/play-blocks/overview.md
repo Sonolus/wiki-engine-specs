@@ -1,4 +1,4 @@
-# Blocks
+# Play: Blocks
 
 Blocks are continuous memories of floating point numbers.
 

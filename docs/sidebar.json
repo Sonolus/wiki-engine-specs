@@ -13,28 +13,12 @@
             "/resources/engine-configuration": "Engine Configuration",
             "/resources/engine-configuration-option": "Engine Configuration Option",
             "/resources/engine-configuration-ui": "Engine Configuration UI",
-            "/resources/engine-data": "Engine Data",
-            "/resources/engine-data-bucket": "Engine Data Bucket",
-            "/resources/engine-data-archetype": "Engine Data Archetype",
+            "/resources/engine-play-data": "Engine Play Data",
+            "/resources/engine-play-data-bucket": "Engine Play Data Bucket",
+            "/resources/engine-play-data-archetype": "Engine Play Data Archetype",
+            "/resources/engine-tutorial-data": "Engine Tutorial Data",
             "/resources/engine-data-node": "Engine Data Node",
             "/resources/engine-rom": "Engine Rom"
-        }
-    },
-    {
-        "title": "Lifecycle",
-        "pages": {
-            "/lifecycle/overview": "Overview",
-            "/lifecycle/early-optimization-system": "Early Optimization System",
-            "/lifecycle/preprocessing-system": "Preprocessing System",
-            "/lifecycle/late-optimization-system": "Late Optimization System",
-            "/lifecycle/spawn-ordering-system": "Spawn Ordering System",
-            "/lifecycle/spawning-system": "Spawning System",
-            "/lifecycle/initialization-system": "Initialization System",
-            "/lifecycle/sequential-update-system": "Sequential Update System",
-            "/lifecycle/input-system": "Input System",
-            "/lifecycle/parallel-update-system": "Parallel Update System",
-            "/lifecycle/despawning-system": "Despawning System",
-            "/lifecycle/presentation-system": "Presentation System"
         }
     },
     {
@@ -48,35 +32,91 @@
         }
     },
     {
-        "title": "Blocks",
+        "title": "Play: Lifecycle",
         "pages": {
-            "/blocks/overview": "Overview",
-            "/blocks/runtime-environment": "Runtime Environment",
-            "/blocks/runtime-update": "Runtime Update",
-            "/blocks/runtime-touch-array": "Runtime Touch Array",
-            "/blocks/runtime-skin-transform": "Runtime Skin Transform",
-            "/blocks/runtime-particle-transform": "Runtime Particle Transform",
-            "/blocks/runtime-background": "Runtime Background",
-            "/blocks/runtime-ui": "Runtime UI",
-            "/blocks/runtime-ui-configuration": "Runtime UI Configuration",
-            "/blocks/level-memory": "Level Memory",
-            "/blocks/level-data": "Level Data",
-            "/blocks/level-option": "Level Option",
-            "/blocks/level-bucket": "Level Bucket",
-            "/blocks/level-score": "Level Score",
-            "/blocks/level-life": "Level Life",
-            "/blocks/engine-rom": "Engine Rom",
-            "/blocks/entity-memory": "Entity Memory",
-            "/blocks/entity-data": "Entity Data",
-            "/blocks/entity-shared-memory": "Entity Shared Memory",
-            "/blocks/entity-info": "Entity Info",
-            "/blocks/entity-despawn": "Entity Despawn",
-            "/blocks/entity-input": "Entity Input",
-            "/blocks/entity-data-array": "Entity Data Array",
-            "/blocks/entity-shared-memory-array": "Entity Shared Memory Array",
-            "/blocks/entity-info-array": "Entity Info Array",
-            "/blocks/archetype-life": "Archetype Life",
-            "/blocks/temporary-memory": "Temporary Memory"
+            "/play-lifecycle/overview": "Overview",
+            "/play-lifecycle/early-optimization-system": "Early Optimization System",
+            "/play-lifecycle/preprocessing-system": "Preprocessing System",
+            "/play-lifecycle/late-optimization-system": "Late Optimization System",
+            "/play-lifecycle/spawn-ordering-system": "Spawn Ordering System",
+            "/play-lifecycle/spawning-system": "Spawning System",
+            "/play-lifecycle/initialization-system": "Initialization System",
+            "/play-lifecycle/sequential-update-system": "Sequential Update System",
+            "/play-lifecycle/input-system": "Input System",
+            "/play-lifecycle/parallel-update-system": "Parallel Update System",
+            "/play-lifecycle/despawning-system": "Despawning System",
+            "/play-lifecycle/presentation-system": "Presentation System"
+        }
+    },
+    {
+        "title": "Play: Blocks",
+        "pages": {
+            "/play-blocks/overview": "Overview",
+            "/play-blocks/runtime-environment": "Runtime Environment",
+            "/play-blocks/runtime-update": "Runtime Update",
+            "/play-blocks/runtime-touch-array": "Runtime Touch Array",
+            "/play-blocks/runtime-skin-transform": "Runtime Skin Transform",
+            "/play-blocks/runtime-particle-transform": "Runtime Particle Transform",
+            "/play-blocks/runtime-background": "Runtime Background",
+            "/play-blocks/runtime-ui": "Runtime UI",
+            "/play-blocks/runtime-ui-configuration": "Runtime UI Configuration",
+            "/play-blocks/level-memory": "Level Memory",
+            "/play-blocks/level-data": "Level Data",
+            "/play-blocks/level-option": "Level Option",
+            "/play-blocks/level-bucket": "Level Bucket",
+            "/play-blocks/level-score": "Level Score",
+            "/play-blocks/level-life": "Level Life",
+            "/play-blocks/engine-rom": "Engine Rom",
+            "/play-blocks/entity-memory": "Entity Memory",
+            "/play-blocks/entity-data": "Entity Data",
+            "/play-blocks/entity-shared-memory": "Entity Shared Memory",
+            "/play-blocks/entity-info": "Entity Info",
+            "/play-blocks/entity-despawn": "Entity Despawn",
+            "/play-blocks/entity-input": "Entity Input",
+            "/play-blocks/entity-data-array": "Entity Data Array",
+            "/play-blocks/entity-shared-memory-array": "Entity Shared Memory Array",
+            "/play-blocks/entity-info-array": "Entity Info Array",
+            "/play-blocks/archetype-life": "Archetype Life",
+            "/play-blocks/temporary-memory": "Temporary Memory"
+        }
+    },
+    {
+        "title": "Tutorial: Lifecycle",
+        "pages": {
+            "/tutorial-lifecycle/overview": "Overview",
+            "/tutorial-lifecycle/early-optimization-system": "Early Optimization System",
+            "/tutorial-lifecycle/preprocessing-system": "Preprocessing System",
+            "/tutorial-lifecycle/late-optimization-system": "Late Optimization System",
+            "/tutorial-lifecycle/navigate-system": "Navigate System",
+            "/tutorial-lifecycle/update-system": "Update System",
+            "/tutorial-lifecycle/presentation-system": "Presentation System"
+        }
+    },
+    {
+        "title": "Tutorial: Blocks",
+        "pages": {
+            "/tutorial-blocks/overview": "Overview",
+            "/tutorial-blocks/runtime-environment": "Runtime Environment",
+            "/tutorial-blocks/runtime-update": "Runtime Update",
+            "/tutorial-blocks/runtime-skin-transform": "Runtime Skin Transform",
+            "/tutorial-blocks/runtime-particle-transform": "Runtime Particle Transform",
+            "/tutorial-blocks/runtime-background": "Runtime Background",
+            "/tutorial-blocks/runtime-ui": "Runtime UI",
+            "/tutorial-blocks/runtime-ui-configuration": "Runtime UI Configuration",
+            "/tutorial-blocks/tutorial-memory": "Tutorial Memory",
+            "/tutorial-blocks/tutorial-data": "Tutorial Data",
+            "/tutorial-blocks/tutorial-instruction": "Tutorial Instruction",
+            "/tutorial-blocks/engine-rom": "Engine Rom",
+            "/tutorial-blocks/temporary-memory": "Temporary Memory"
+        }
+    },
+    {
+        "title": "Function Optimizations",
+        "pages": {
+            "/function-optimizations/overview": "Overview",
+            "/function-optimizations/mathematical-functions": "Mathematical Functions",
+            "/function-optimizations/block-access-functions": "Block Access Functions",
+            "/function-optimizations/control-flow-functions": "Control Flow Functions"
         }
     },
     {
@@ -157,6 +197,7 @@
             "/functions/not": "Not",
             "/functions/not-equal": "NotEqual",
             "/functions/or": "Or",
+            "/functions/paint": "Paint",
             "/functions/play": "Play",
             "/functions/play-looped": "PlayLooped",
             "/functions/play-looped-scheduled": "PlayLoopedScheduled",

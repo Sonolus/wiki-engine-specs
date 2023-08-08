@@ -8,7 +8,7 @@ Engine is the driver of a level.
 
 Engine's main responsibility is to provide behavioral logics such as drawing of gameplay elements, playing of SFX, input handling, and judging player performance. A level is then able to provide data, and combining with engine's logic it can create a full gameplay experience for players.
 
-An engine consists of configuration and data.
+An engine consists of configuration, play data, tutorial data, and rom.
 
 ## Configuration
 
@@ -34,11 +34,11 @@ UI is standardized options for UI elements.
 
 These UI options are always available and allow engines to adjust UI based on players' input.
 
-## Data
+## Play Data
 
-Engine data is the brain of an engine.
+Engine play data is the brain of an engine in play mode.
 
-Engine data consists of archetypes, scripts, nodes, and buckets.
+Engine play data consists of skin, effect, particle, archetypes, nodes, and buckets.
 
 ### Skin
 
@@ -75,3 +75,37 @@ Buckets are categories of playable entities.
 It is optional and used by engines to provide player judgement graphs of each category at result screen.
 
 For example, an engine may have a "tap note" bucket which shows judgment graphs of player's performance on tap notes in milliseconds, and similarly a "release note" bucket.
+
+## Tutorial data
+
+Engine tutorial data is the brain of an engine in tutorial mode.
+
+Engine tutorial data consists of skin, effect, particle, instruction, archetypes, callbacks, and nodes.
+
+### Skin
+
+Same as play mode.
+
+### Effect
+
+Same as play mode.
+
+### Particle
+
+Same as play mode.
+
+### Instruction
+
+Instruction declares which texts and icons the engine wants access to.
+
+### Callbacks
+
+Callbacks are nodes to execute when events happen.
+
+### Nodes
+
+Same as play mode.
+
+## Rom
+
+Engine rom contains efficient storage and retrieval of readonly data to be used.

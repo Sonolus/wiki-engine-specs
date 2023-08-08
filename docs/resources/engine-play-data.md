@@ -1,31 +1,31 @@
-# Engine Data
+# Engine Play Data
 
-Engine data is used by Sonolus app to drive a level's gameplay.
+Engine play data is used by Sonolus app to drive a level's gameplay.
 
 ## Syntax
 
 ```ts
-type EngineData = {
+type EnginePlayData = {
     skin: {
         sprites: {
-            name: string
+            name: SkinSpriteName | (string & {})
             id: number
         }[]
     }
     effect: {
         clips: {
-            name: string
+            name: EffectClipName | (string & {})
             id: number
         }[]
     }
     particle: {
         effects: {
-            name: string
+            name: ParticleEffectName | (string & {})
             id: number
         }[]
     }
-    buckets: EngineDataBucket[]
-    archetypes: EngineDataArchetype[]
+    buckets: EnginePlayDataBucket[]
+    archetypes: EnginePlayDataArchetype[]
     nodes: EngineDataNode[]
 }
 ```

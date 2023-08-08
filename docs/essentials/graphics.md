@@ -14,8 +14,6 @@ You can obtain screen aspect ratio from Runtime Environment block.
 
 Z value is used to order rendering of skin sprites.
 
-Z value must be between 0 and 1000 in order for it to be rendered.
-
 ## Quad
 
 Quad (quadrilateral) is the basic shape used in rendering. Points are in the order of bottom-left, top-left, top-right, bottom-right.
