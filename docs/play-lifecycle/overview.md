@@ -1,12 +1,12 @@
-# Lifecycle
+# Play: Lifecycle
 
-An overview of a Sonolus level's lifecycle.
+An overview of a Sonolus level's lifecycle during gameplay.
 
 ## Preparation
 
-Preparation runs once and only once before the start of a level, and prepares the level for gameplay. Subsequent restarts of the level will not run preparation again.
+Preparation runs once and only once before the start of a level, and prepares the runtime for gameplay. Subsequent restarts of the level will not run preparation again.
 
-Preparation consists of preprocessing system, spawn ordering system, and optimization system.
+Preparation consists of early optimization system, preprocessing system, late optimization system, and spawn ordering system.
 
 ### Early Optimization System
 

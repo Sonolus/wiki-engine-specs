@@ -1,6 +1,6 @@
 # Engine Data Node
 
-Engine data Node is used by scripts to execute logic.
+Engine data Node is used to execute logic.
 
 ## Syntax
 

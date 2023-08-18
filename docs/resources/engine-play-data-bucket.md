@@ -1,16 +1,16 @@
-# Engine Data Bucket
+# Engine Play Data Bucket
 
-Engine data bucket is used by Sonolus app to populate judgment graphs in result screen.
+Engine play data bucket is used by Sonolus app to populate judgment graphs in result screen.
 
 ## Syntax
 
 ```ts
-type EngineDataBucket = {
-    sprites: EngineDataBucketSprite[]
-    unit?: string
+type EnginePlayDataBucket = {
+    sprites: EnginePlayDataBucketSprite[]
+    unit?: UnitText | (string & {})
 }
 
-type EngineDataBucketSprite = {
+type EnginePlayDataBucketSprite = {
     id: number
     fallbackId?: number
     x: number
