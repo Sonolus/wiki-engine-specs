@@ -16,6 +16,8 @@
             "/resources/engine-play-data": "Engine Play Data",
             "/resources/engine-play-data-bucket": "Engine Play Data Bucket",
             "/resources/engine-play-data-archetype": "Engine Play Data Archetype",
+            "/resources/engine-preview-data": "Engine Preview Data",
+            "/resources/engine-preview-data-archetype": "Engine Preview Data Archetype",
             "/resources/engine-tutorial-data": "Engine Tutorial Data",
             "/resources/engine-data-node": "Engine Data Node",
             "/resources/engine-rom": "Engine Rom"
@@ -78,6 +80,37 @@
             "/play-blocks/entity-info-array": "Entity Info Array",
             "/play-blocks/archetype-life": "Archetype Life",
             "/play-blocks/temporary-memory": "Temporary Memory"
+        }
+    },
+    {
+        "title": "Preview: Lifecycle",
+        "pages": {
+            "/preview-lifecycle/overview": "Overview",
+            "/preview-lifecycle/early-optimization-system": "Early Optimization System",
+            "/preview-lifecycle/preprocessing-system": "Preprocessing System",
+            "/preview-lifecycle/late-optimization-system": "Late Optimization System",
+            "/preview-lifecycle/rendering-system": "Rendering System"
+        }
+    },
+    {
+        "title": "Preview: Blocks",
+        "pages": {
+            "/preview-blocks/overview": "Overview",
+            "/preview-blocks/runtime-environment": "Runtime Environment",
+            "/preview-blocks/runtime-canvas": "Runtime Canvas",
+            "/preview-blocks/runtime-skin-transform": "Runtime Skin Transform",
+            "/preview-blocks/runtime-ui": "Runtime Ui",
+            "/preview-blocks/runtime-ui-configuration": "Runtime Ui Configuration",
+            "/preview-blocks/preview-data": "Preview Data",
+            "/preview-blocks/preview-option": "Preview Option",
+            "/preview-blocks/engine-rom": "Engine Rom",
+            "/preview-blocks/entity-data": "Entity Data",
+            "/preview-blocks/entity-shared-memory": "Entity Shared Memory",
+            "/preview-blocks/entity-info": "Entity Info",
+            "/preview-blocks/entity-data-array": "Entity Data Array",
+            "/preview-blocks/entity-shared-memory-array": "Entity Shared Memory Array",
+            "/preview-blocks/entity-info-array": "Entity Info Array",
+            "/preview-blocks/temporary-memory": "Temporary Memory"
         }
     },
     {
@@ -203,6 +236,7 @@
             "/functions/play-looped-scheduled": "PlayLoopedScheduled",
             "/functions/play-scheduled": "PlayScheduled",
             "/functions/power": "Power",
+            "/functions/print": "Print",
             "/functions/radian": "Radian",
             "/functions/random": "Random",
             "/functions/random-integer": "RandomInteger",
