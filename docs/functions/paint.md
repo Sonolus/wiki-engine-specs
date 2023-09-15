@@ -17,3 +17,7 @@ Paint an instruction icon.
 ## Return
 
 `0`.
+
+## Remarks
+
+Only available in tutorial.
