@@ -2,6 +2,12 @@
 
 Engine preview data is used by Sonolus app to drive a level's preview.
 
+## Resource Type
+
+JSON resource.
+
+`.json` is the only supported format, and must also be GZip compressed.
+
 ## Syntax
 
 ```ts

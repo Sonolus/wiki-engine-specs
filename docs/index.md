@@ -1,8 +1,8 @@
 # Introduction
 
-Specifications for Sonolus engines.
+Specification for Sonolus engines.
 
-The specifications includes:
+The specification includes:
 
 -   Overview of an engine and how it works.
 -   Blocks, callbacks, and functions.
