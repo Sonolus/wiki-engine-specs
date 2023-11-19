@@ -76,11 +76,11 @@ It is optional and used by engines to provide player judgement graphs of each ca
 
 For example, an engine may have a "tap note" bucket which shows judgment graphs of player's performance on tap notes in milliseconds, and similarly a "release note" bucket.
 
-## Play Data
+## Preview Data
 
-Engine play data is the brain of an engine in preview mode.
+Engine preview data is the brain of an engine in preview mode.
 
-Engine play data consists of skin, archetypes, and nodes.
+Engine preview data consists of skin, archetypes, and nodes.
 
 ### Skin
 

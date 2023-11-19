@@ -1,6 +1,6 @@
 # Spawn Ordering System
 
-Spawn ordering system is responsible for calculating the spawn order of each entities and order them into spawn queue.
+Spawn ordering system is responsible for calculating the spawn order of each entity and order them into spawn queue.
 
 ## `spawnOrder` Callback
 
