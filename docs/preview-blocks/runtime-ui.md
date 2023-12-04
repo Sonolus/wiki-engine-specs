@@ -10,9 +10,10 @@ const RuntimeUIId = 1003
 
 ## Values
 
-| Index | Initial Value | Description                   |
-| ----- | ------------- | ----------------------------- |
-| 0-8   | 0             | Layout information of menu UI |
+| Index | Initial Value | Description                       |
+| ----- | ------------- | --------------------------------- |
+| 0-8   | 0             | Layout information of menu UI     |
+| 9-17  | 0             | Layout information of progress UI |
 
 For each UI:
 

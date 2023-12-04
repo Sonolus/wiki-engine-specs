@@ -4,11 +4,11 @@ Presentation system is responsible for presenting skin sprites, effect clips, pa
 
 ## Skin Sprites
 
-All skin sprites from `Draw` function calls are drawn.
+All skin sprites from `Draw` and `DrawCurved*` function calls are drawn.
 
 ## Effect Clips
 
-All effect clips from `Play` function calls are played.
+All effect clips from `Play`, `PlayLooped`, `StopLooped`, `PlayScheduled`, `PlayLoopedScheduled`, and `StopLoopedScheduled` function calls are played and stopped.
 
 ## Particle Effects
 

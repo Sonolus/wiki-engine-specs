@@ -17,6 +17,8 @@
             "/resources/engine-play-data": "Engine Play Data",
             "/resources/engine-play-data-bucket": "Engine Play Data Bucket",
             "/resources/engine-play-data-archetype": "Engine Play Data Archetype",
+            "/resources/engine-watch-data": "Engine Watch Data",
+            "/resources/engine-watch-data-archetype": "Engine Watch Data Archetype",
             "/resources/engine-preview-data": "Engine Preview Data",
             "/resources/engine-preview-data-archetype": "Engine Preview Data Archetype",
             "/resources/engine-tutorial-data": "Engine Tutorial Data",
@@ -81,6 +83,49 @@
             "/play-blocks/entity-info-array": "Entity Info Array",
             "/play-blocks/archetype-life": "Archetype Life",
             "/play-blocks/temporary-memory": "Temporary Memory"
+        }
+    },
+    {
+        "title": "Watch: Lifecycle",
+        "pages": {
+            "/watch-lifecycle/overview": "Overview",
+            "/watch-lifecycle/early-optimization-system": "Early Optimization System",
+            "/watch-lifecycle/preprocessing-system": "Preprocessing System",
+            "/watch-lifecycle/late-optimization-system": "Late Optimization System",
+            "/watch-lifecycle/spawn-system": "Spawn System",
+            "/watch-lifecycle/lifetime-system": "Lifetime System",
+            "/watch-lifecycle/sequential-update-system": "Sequential Update System",
+            "/watch-lifecycle/parallel-update-system": "Parallel Update System",
+            "/watch-lifecycle/presentation-system": "Presentation System"
+        }
+    },
+    {
+        "title": "Watch: Blocks",
+        "pages": {
+            "/watch-blocks/overview": "Overview",
+            "/watch-blocks/runtime-environment": "Runtime Environment",
+            "/watch-blocks/runtime-update": "Runtime Update",
+            "/watch-blocks/runtime-skin-transform": "Runtime Skin Transform",
+            "/watch-blocks/runtime-particle-transform": "Runtime Particle Transform",
+            "/watch-blocks/runtime-background": "Runtime Background",
+            "/watch-blocks/runtime-ui": "Runtime UI",
+            "/watch-blocks/runtime-ui-configuration": "Runtime UI Configuration",
+            "/watch-blocks/level-memory": "Level Memory",
+            "/watch-blocks/level-data": "Level Data",
+            "/watch-blocks/level-option": "Level Option",
+            "/watch-blocks/level-score": "Level Score",
+            "/watch-blocks/level-life": "Level Life",
+            "/watch-blocks/engine-rom": "Engine Rom",
+            "/watch-blocks/entity-memory": "Entity Memory",
+            "/watch-blocks/entity-data": "Entity Data",
+            "/watch-blocks/entity-shared-memory": "Entity Shared Memory",
+            "/watch-blocks/entity-info": "Entity Info",
+            "/watch-blocks/entity-input": "Entity Input",
+            "/watch-blocks/entity-data-array": "Entity Data Array",
+            "/watch-blocks/entity-shared-memory-array": "Entity Shared Memory Array",
+            "/watch-blocks/entity-info-array": "Entity Info Array",
+            "/watch-blocks/archetype-life": "Archetype Life",
+            "/watch-blocks/temporary-memory": "Temporary Memory"
         }
     },
     {

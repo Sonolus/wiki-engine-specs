@@ -10,9 +10,10 @@ const RuntimeUIConfigurationId = 1004
 
 ## Values
 
-| Index | Initial Value | Description              |
-| ----- | ------------- | ------------------------ |
-| 0-1   | 0             | Configuration of menu UI |
+| Index | Initial Value | Description                  |
+| ----- | ------------- | ---------------------------- |
+| 0-1   | 0             | Configuration of menu UI     |
+| 2-3   | 0             | Configuration of progress UI |
 
 For each UI:
 

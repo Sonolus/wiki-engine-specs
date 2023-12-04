@@ -8,7 +8,7 @@ Engine is the driver of a level.
 
 Engine's main responsibility is to provide behavioral logics such as drawing of gameplay elements, playing of SFX, input handling, and judging player performance. A level is then able to provide data, and combining with engine's logic it can create a full gameplay experience for players.
 
-An engine consists of configuration, play data, preview data, tutorial data, and rom.
+An engine consists of configuration, play data, watch data, preview data, tutorial data, and rom.
 
 ## Configuration
 
@@ -76,11 +76,37 @@ It is optional and used by engines to provide player judgement graphs of each ca
 
 For example, an engine may have a "tap note" bucket which shows judgment graphs of player's performance on tap notes in milliseconds, and similarly a "release note" bucket.
 
-## Play Data
+## Watch Data
 
-Engine play data is the brain of an engine in preview mode.
+Engine watch data is the brain of an engine in watch mode.
 
-Engine play data consists of skin, archetypes, and nodes.
+Engine watch data consists of skin, archetypes, and nodes.
+
+### Skin
+
+Same as play mode.
+
+### Effect
+
+Same as play mode.
+
+### Particle
+
+Same as play mode.
+
+### Archetypes
+
+Same as play mode.
+
+### Nodes
+
+Same as play mode.
+
+## Preview Data
+
+Engine preview data is the brain of an engine in preview mode.
+
+Engine preview data consists of skin, archetypes, and nodes.
 
 ### Skin
 

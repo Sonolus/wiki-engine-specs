@@ -8,12 +8,14 @@ All skin sprites from `Draw` and `DrawCurved*` function calls are drawn.
 
 ## Effect Clips
 
-All effect clips from `Play`, `PlayLooped`, `StopLooped`, `PlayScheduled`, `PlayLoopedScheduled`, and `StopLoopedScheduled` function calls are played and stopped.
+All effect clips from `PlayScheduled`, `PlayLoopedScheduled`, and `StopLoopedScheduled` function calls are played and stopped.
 
 ## Particle Effects
 
 All particle effects from `SpawnParticleEffect`, `MoveParticleEffect`, and `DestroyParticleEffect` function calls are spawned, moved, and destroyed.
 
 ## Remarks
+
+`Play`, `PlayLooped`, and `StopLooped` functions are not supported.
 
 All function calls are processed regardless whether the source entity is still active or not.
