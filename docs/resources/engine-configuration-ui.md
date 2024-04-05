@@ -14,6 +14,9 @@ type EngineConfigurationUI = {
     comboVisibility: EngineConfigurationVisibility
     primaryMetricVisibility: EngineConfigurationVisibility
     secondaryMetricVisibility: EngineConfigurationVisibility
+    progressVisibility: EngineConfigurationVisibility
+    tutorialNavigationVisibility: EngineConfigurationVisibility
+    tutorialInstructionVisibility: EngineConfigurationVisibility
     judgmentAnimation: EngineConfigurationAnimation
     comboAnimation: EngineConfigurationAnimation
     judgmentErrorStyle: EngineConfigurationJudgmentErrorStyle
@@ -38,8 +41,8 @@ type EngineConfigurationAnimationTween = {
     to: number
     duration: number
     ease:
-        | 'Linear'
-        | `${'In' | 'Out' | 'InOut' | 'OutIn'}${
+        | 'linear'
+        | `${'in' | 'out' | 'inOut' | 'outIn'}${
               | 'Sine'
               | 'Quad'
               | 'Cubic'
@@ -49,7 +52,7 @@ type EngineConfigurationAnimationTween = {
               | 'Circ'
               | 'Back'
               | 'Elastic'}`
-        | 'None'
+        | 'none'
 }
 
 type EngineConfigurationJudgmentErrorStyle =
@@ -106,13 +109,13 @@ Without specifying a scope, UI values will be saved only for this engine.
             "from": 1,
             "to": 1,
             "duration": 0,
-            "ease": "Linear"
+            "ease": "linear"
         },
         "alpha": {
             "from": 1,
             "to": 0,
             "duration": 0.2,
-            "ease": "InQuart"
+            "ease": "inQuart"
         }
     },
     "comboAnimation": {
@@ -120,13 +123,13 @@ Without specifying a scope, UI values will be saved only for this engine.
             "from": 1.2,
             "to": 1,
             "duration": 0.2,
-            "ease": "InBack"
+            "ease": "inBack"
         },
         "alpha": {
             "from": 1,
             "to": 1,
             "duration": 0,
-            "ease": "Linear"
+            "ease": "linear"
         }
     },
     "judgmentErrorStyle": "arrowDown",

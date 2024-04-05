@@ -15,6 +15,8 @@ const RuntimeEnvironmentId = 1000
 | 0     | ?             | Debug mode: `1` = Yes, `0` = No |
 | 1     | ?             | Screen aspect ratio             |
 | 2     | ?             | Audio offset                    |
+| 3     | ?             | Input offset                    |
+| 4     | ?             | Replay: `1` = Yes, `0` = No     |
 
 ## Access
 
