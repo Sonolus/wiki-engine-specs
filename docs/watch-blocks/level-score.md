@@ -5,7 +5,7 @@ Level Score block contains configuration for arcade scoring.
 ## Identifier
 
 ```ts
-const LevelScoreId = 2003
+const LevelScoreId = 2004
 ```
 
 ## Values

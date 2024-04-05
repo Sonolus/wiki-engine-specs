@@ -9,7 +9,7 @@ type EnginePreviewDataArchetype = {
     name: EngineArchetypeName | (string & {})
     preprocess?: EnginePreviewDataArchetypeCallback
     render?: EnginePreviewDataArchetypeCallback
-    data: {
+    imports: {
         name: EngineArchetypeDataName | (string & {})
         index: number
     }[]
@@ -25,11 +25,11 @@ type EnginePreviewDataArchetypeCallback = {
 
 Name of this archetype, which will be referenced by entities in level data.
 
-### `data`
+### `imports`
 
-Entity data to be inject into Entity Data block.
+Imported data to be inject into Entity Data block.
 
-Entity data with matching `name` will be injected at `index` of Entity Data block.
+Imported data with matching `name` will be injected at `index` of Entity Data block.
 
 ### `EnginePreviewDataArchetypeCallback.index`
 
@@ -44,7 +44,7 @@ Index of entry node in `nodes` array.
         "index": 0,
         "order": 0
     },
-    "data": [
+    "imports": [
         {
             "name": "#BEAT",
             "index": 0

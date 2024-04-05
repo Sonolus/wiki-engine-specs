@@ -15,7 +15,7 @@ type EngineWatchDataArchetype = {
     updateSequential?: EngineWatchDataArchetypeCallback
     updateParallel?: EngineWatchDataArchetypeCallback
     terminate?: EngineWatchDataArchetypeCallback
-    data: {
+    imports: {
         name: EngineArchetypeDataName | (string & {})
         index: number
     }[]
@@ -41,11 +41,11 @@ Special archetype names will have its effect applied automatically:
 
 If true, Sonolus will treat entities with this archetype to be playable entities, and will contribute to judgment, combo, life, score, etc.
 
-### `data`
+### `imports`
 
-Entity data to be inject into Entity Data block.
+Imported data to be inject into Entity Data block.
 
-Entity data with matching `name` will be injected at `index` of Entity Data block.
+Imported data with matching `name` will be injected at `index` of Entity Data block.
 
 ### `EngineWatchDataArchetypeCallback.index`
 
@@ -61,7 +61,7 @@ Index of entry node in `nodes` array.
         "index": 0,
         "order": 0
     },
-    "data": [
+    "imports": [
         {
             "name": "#BEAT",
             "index": 0

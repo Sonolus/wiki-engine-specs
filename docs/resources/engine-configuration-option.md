@@ -11,32 +11,35 @@ type EngineConfigurationOption =
     | EngineConfigurationSelectOption
 
 type EngineConfigurationSliderOption = {
-    name: string
+    name: Text | (string & {})
     standard?: boolean
+    advanced?: boolean
     scope?: string
     type: 'slider'
     def: number
     min: number
     max: number
     step: number
-    unit?: string
+    unit?: Text | (string & {})
 }
 
 type EngineConfigurationToggleOption = {
-    name: string
+    name: Text | (string & {})
     standard?: boolean
+    advanced?: boolean
     scope?: string
     type: 'toggle'
     def: 0 | 1
 }
 
 type EngineConfigurationSelectOption = {
-    name: string
+    name: Text | (string & {})
     standard?: boolean
+    advanced?: boolean
     scope?: string
     type: 'select'
     def: number
-    values: string[]
+    values: (Text | (string & {}))[]
 }
 ```
 
@@ -77,6 +80,6 @@ Standardized option values starts with `#` and will be translated into client la
     "min": 0.5,
     "max": 2,
     "step": 0.05,
-    "unit": "#PERCENTAGE"
+    "unit": "#PERCENTAGE_UNIT"
 }
 ```

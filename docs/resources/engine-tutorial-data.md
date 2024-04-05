@@ -32,7 +32,7 @@ type EngineTutorialData = {
     }
     instruction: {
         texts: {
-            name: InstructionText | (string & {})
+            name: Text | (string & {})
             id: number
         }[]
         icons: {

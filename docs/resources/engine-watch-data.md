@@ -30,6 +30,7 @@ type EngineWatchData = {
             id: number
         }[]
     }
+    buckets: EngineDataBucket[]
     archetypes: EngineWatchDataArchetype[]
     updateSpawn: number
     nodes: EngineDataNode[]
@@ -68,6 +69,9 @@ Index of entry node in `nodes` array.
             }
         ]
     },
+    "buckets": [
+        // ...
+    ],
     "archetypes": [
         // ...
     ],

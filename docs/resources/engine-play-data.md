@@ -30,7 +30,7 @@ type EnginePlayData = {
             id: number
         }[]
     }
-    buckets: EnginePlayDataBucket[]
+    buckets: EngineDataBucket[]
     archetypes: EnginePlayDataArchetype[]
     nodes: EngineDataNode[]
 }
