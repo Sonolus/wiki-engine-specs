@@ -47,6 +47,12 @@ Imported data to be inject into Entity Data block.
 
 Imported data with matching `name` will be injected at `index` of Entity Data block.
 
+Special imported data names are available:
+
+-   `#JUDGMENT`: When watching a replay, will be populated with replay's judgment values.
+
+-   `#ACCURACY`: When watching a replay, will be populated with replay's accuracy values.
+
 ### `EngineWatchDataArchetypeCallback.index`
 
 Index of entry node in `nodes` array.
