@@ -13,6 +13,7 @@ JSON resource.
 ```ts
 type EngineWatchData = {
     skin: {
+        renderMode?: 'default' | 'standard' | 'lightweight'
         sprites: {
             name: SkinSpriteName | (string & {})
             id: number
@@ -36,6 +37,12 @@ type EngineWatchData = {
     nodes: EngineDataNode[]
 }
 ```
+
+### `skin.renderMode`
+
+Render mode.
+
+When not specified or `'default'`, will use user's settings; otherwise use specified render mode.
 
 ### `updateSpawn`
 

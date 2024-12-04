@@ -13,6 +13,7 @@ JSON resource.
 ```ts
 type EnginePlayData = {
     skin: {
+        renderMode?: 'default' | 'standard' | 'lightweight'
         sprites: {
             name: SkinSpriteName | (string & {})
             id: number
@@ -35,6 +36,12 @@ type EnginePlayData = {
     nodes: EngineDataNode[]
 }
 ```
+
+### `skin.renderMode`
+
+Render mode.
+
+When not specified or `'default'`, will use user's settings; otherwise use specified render mode.
 
 ## Examples
 
