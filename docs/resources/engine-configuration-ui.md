@@ -57,6 +57,8 @@ type EngineConfigurationAnimationTween = {
 
 type EngineConfigurationJudgmentErrorStyle =
     | 'none'
+    | 'late'
+    | 'early'
     | 'plus'
     | 'minus'
     | 'arrowUp'
@@ -68,7 +70,14 @@ type EngineConfigurationJudgmentErrorStyle =
     | 'triangleLeft'
     | 'triangleRight'
 
-type EngineConfigurationJudgmentErrorPlacement = 'both' | 'left' | 'right'
+type EngineConfigurationJudgmentErrorPlacement =
+    | 'left'
+    | 'right'
+    | 'leftRight'
+    | 'top'
+    | 'bottom'
+    | 'topBottom'
+    | 'center'
 ```
 
 ### `scope`
@@ -132,8 +141,8 @@ Without specifying a scope, UI values will be saved only for this engine.
             "ease": "linear"
         }
     },
-    "judgmentErrorStyle": "arrowDown",
-    "judgmentErrorPlacement": "both",
+    "judgmentErrorStyle": "late",
+    "judgmentErrorPlacement": "top",
     "judgmentErrorMin": 20
 }
 ```
