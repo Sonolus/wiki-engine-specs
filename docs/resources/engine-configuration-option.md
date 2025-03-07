@@ -12,6 +12,7 @@ type EngineConfigurationOption =
 
 type EngineConfigurationSliderOption = {
     name: Text | (string & {})
+    description?: string
     standard?: boolean
     advanced?: boolean
     scope?: string
@@ -25,6 +26,7 @@ type EngineConfigurationSliderOption = {
 
 type EngineConfigurationToggleOption = {
     name: Text | (string & {})
+    description?: string
     standard?: boolean
     advanced?: boolean
     scope?: string
@@ -34,6 +36,7 @@ type EngineConfigurationToggleOption = {
 
 type EngineConfigurationSelectOption = {
     name: Text | (string & {})
+    description?: string
     standard?: boolean
     advanced?: boolean
     scope?: string
